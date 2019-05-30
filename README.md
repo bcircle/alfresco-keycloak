@@ -2,10 +2,24 @@
 
 - [Alfresco Identity Service](https://community.alfresco.com/people/gravitonian/blog/2018/07/17/getting-started-with-alfresco-identity-service-ea-keycloak)
 - [Source](https://github.com/gravitonian/alfresco-dbp-keycloak-integration)
-
 - http://localhost:8081/share
 - http://localhost:8080/auth/admin/master/console
 - http://localhost:8080/auth/realms/alfresco-dbp
+
+#### Global Properties
+
+```bash
+authentication.chain=identity-service1:identity-service,alfrescoNtlm1:alfrescoNtlm
+identity-service.authentication.enabled=true
+identity-service.enable-basic-auth=true
+identity-service.authentication.defaultAdministratorUserNames=admin
+identity-service.authentication.validation.failure.silent=false
+identity-service.auth-server-url=http//localhost:8080/auth
+identity-service.realm=alfresco-dbp
+identity-service.resource=alfresco-client
+identity-service.public-client=true
+identity-service.ssl-required=non
+```
 
 #### Restart Content Service
 
