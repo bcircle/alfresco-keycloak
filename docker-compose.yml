@@ -81,9 +81,9 @@ services:
     command: postgres -c max_connections=300 -c log_min_messages=LOG
     ports:
       - 5432:5432
-    # volumes:
-    #   - ./data/postgres:/var/lib/postgresql/data
-    #   - ./docker-postgresql-multiple-databases:/docker-entrypoint-initdb.d
+    volumes:
+      - ./data/postgres:/var/lib/postgresql/data
+      - ./docker-postgresql-multiple-databases:/docker-entrypoint-initdb.d
 
   identity-service:
     image: jboss/keycloak:3.4.3.Final
@@ -101,13 +101,13 @@ services:
       - postgres
 
 # UNCOMMENT TO ENABLE LDAP SERVER
-#  ldap:
-#    image: greggigon/apacheds
-#    environment:
-#      - BOOTSTRAP_FILE=/bootstrap/demo.ldif
-#    restart: always
-#    ports:
-#      - 10389:10389
-#    volumes:
-#      - ./data/ldap/data:/data
-#      - ./ldap/bootstrap:/bootstrap
+  ldap:
+   image: greggigon/apacheds
+   environment:
+     - BOOTSTRAP_FILE=/bootstrap/demo.ldif
+   restart: always
+   ports:
+     - 10389:10389
+   volumes:
+     - ./data/ldap/data:/data
+     - ./ldap/bootstrap:/bootstrap
