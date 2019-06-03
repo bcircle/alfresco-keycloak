@@ -46,7 +46,7 @@ curl -d 'client_id=alfresco-client' \
     -d 'username=admin@gmail.com' \
     -d 'password=1234' \
     -d 'grant_type=password' \
-    'http://localhost:8080/auth/realms/alfresco-dbp/protocol/openid-connect/token' | python -m json.tool
+    'http://wk-macbook.local:8080/auth/realms/alfresco-dbp/protocol/openid-connect/token' | python -m json.tool
 
 curl -d 'client_id=alfresco-client' \
     -d 'username=wk' \
@@ -56,6 +56,6 @@ curl -d 'client_id=alfresco-client' \
 ```
 
 ```bash
-curl http://localhost:8082/alfresco/api/-default-/public/alfresco/versions/1/nodes/-root-/children \
-    -H "Authorization: bearer <TOKEN>" | python -m json.tool
+curl http://wk-macbook.local:8082/alfresco/api/-default-/public/alfresco/versions/1/nodes/-root-/children \
+    -H "Authorization: bearer <TOKEN>"  | python -m json.tool
 ```

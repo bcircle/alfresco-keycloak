@@ -20,20 +20,10 @@ services:
               -Dindex.subsystem.name=solr6
               -Ddeployment.method=DOCKER_COMPOSE
               -Xms1g -Xmx1g
-              -Dauthentication.chain=identity-service1:identity-service,alfrescoNtlm1:alfrescoNtlm
-              -Didentity-service.authentication.enabled=true
-              -Didentity-service.enable-basic-auth=true
-              -Didentity-service.authentication.defaultAdministratorUserNames=admin
-              -Didentity-service.authentication.validation.failure.silent=false
-              -Didentity-service.auth-server-url=http://wk-macbook.local:8080/auth
-              -Didentity-service.realm=alfresco-dbp
-              -Didentity-service.resource=alfresco-client
-              -Didentity-service.public-client=true
-              -Didentity-service.ssl-required=none
               "
       volumes:
         - ./data/acs:/usr/local/tomcat/alf_data/
-        # - ./acs/alfresco-global.properties:/usr/local/tomcat/shared/classes/alfresco-global.properties
+        - ./acs/alfresco-global.properties:/usr/local/tomcat/shared/classes/alfresco-global.properties
         - ./acs/log4j.properties:/usr/local/tomcat/webapps/alfresco/WEB-INF/classes/log4j.properties
       ports:
         - 8082:8080 # Browser port
