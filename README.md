@@ -26,8 +26,7 @@ identity-service.ssl-required=non
 
 ```bash
 docker-compose stop content
-docker-compose rm content
-y
+docker-compose rm -f content
 docker-compose up -d --no-deps content
 ```
 
