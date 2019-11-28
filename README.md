@@ -58,3 +58,10 @@ curl -d 'client_id=alfresco-client' \
 curl http://wk-macbook.local:8082/alfresco/api/-default-/public/alfresco/versions/1/nodes/-root-/children \
     -H "Authorization: bearer <TOKEN>"  | python -m json.tool
 ```
+
+## Resource
+
+- https://blog.johanet.fr/single-sign-on-with-alfresco-share-and-keycloak
+- https://hub.alfresco.com/t5/alfresco-platform-services-blog/getting-started-with-alfresco-identity-service-ea-keycloak/ba-p/288261
+- https://www.mai1015.com/development/2019/05/05/docker-keycloak-proxy-behind-nginx
+- https://hub.alfresco.com/t5/application-development/adf-2-4-0-release-note/ba-p/293335
