@@ -146,6 +146,16 @@ services:
       - alfresco
     ports:
       - 8080:8080
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
     links:
       - alfresco
       - share
+      - content-app
+
+  content-app:
+    image: reg.bcecm.com/beflex-content-management/beflex-content-app:1.7.15.20190926.5
+    container_name: "beflex-content-app"
+    mem_limit: 256m
+    depends_on:
+      - alfresco
