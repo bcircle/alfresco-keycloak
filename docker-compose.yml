@@ -44,6 +44,14 @@ services:
         -Dtransform.misc.url=http://transform-misc:8090/
         -Dcsrf.filter.enabled=false
         -Xms1500m -Xmx1500m
+        -Dauthentication.chain=identity-service1:identity-service,alfrescoNtlm1:alfrescoNtlm
+        -Didentity-service.enable-basic-auth=true
+        -Didentity-service.authentication.validation.failure.silent=false
+        -Didentity-service.auth-server-url=http://identity-service:8080/auth
+        -Didentity-service.realm=alfresco-dbp
+        -Didentity-service.resource=alfresco-client
+        -Didentity-service.public-client=true
+        -Didentity-service.ssl-required=none
         '
 
     volumes:
