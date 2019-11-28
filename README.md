@@ -52,13 +52,12 @@ docker run \
 
 - http://localhost:8080/auth/realms/alfresco-dbp/protocol/openid-connect/auth?response_type=code&client_id=alfresco-client&redirect_uri=https://google.com
 
-
 ```bash
 curl -d 'client_id=alfresco-client' \
     -d 'username=admin' \
     -d 'password=1234' \
     -d 'grant_type=password' 'http://localhost:8080/auth/realms/alfresco-dbp/protocol/openid-connect/token' | python -m json.tool
-
+```
 
 ## Resource
 
