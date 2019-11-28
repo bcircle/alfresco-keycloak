@@ -2,71 +2,71 @@ version: "2"
 
 services:
   content:
-      image: alfresco/alfresco-content-repository-community:6.0.7-ga
-      mem_limit: 1500m
-      environment:
-          CATALINA_OPTS: "
-                -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5005
-                "
-          JAVA_OPTS: "
-              -Ddb.driver=org.postgresql.Driver
-              -Ddb.username=alfresco
-              -Ddb.password=alfresco
-              -Ddb.url=jdbc:postgresql://postgres:5432/alfresco
-              -Dsolr.host=solr6
-              -Dsolr.port=8983
-              -Dsolr.secureComms=none
-              -Dsolr.base.url=/solr
-              -Dindex.subsystem.name=solr6
-              -Ddeployment.method=DOCKER_COMPOSE
-              -Xms1g -Xmx1g
-              "
-      volumes:
-        - ./data/acs:/usr/local/tomcat/alf_data/
-        - ./acs/alfresco-global.properties:/usr/local/tomcat/shared/classes/alfresco-global.properties
-        - ./acs/log4j.properties:/usr/local/tomcat/webapps/alfresco/WEB-INF/classes/log4j.properties
-      ports:
-        - 8082:8080 # Browser port
-        - 5005:5005 # Remote Debug
-      links:
-        - solr6
-        - postgres:postgres
-      depends_on:
-        - solr6
-        - postgres
+    image: alfresco/alfresco-content-repository-community:6.0.7-ga
+    mem_limit: 1500m
+    environment:
+      CATALINA_OPTS: "
+        -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5005
+        "
+      JAVA_OPTS: "
+        -Ddb.driver=org.postgresql.Driver
+        -Ddb.username=alfresco
+        -Ddb.password=alfresco
+        -Ddb.url=jdbc:postgresql://postgres:5432/alfresco
+        -Dsolr.host=solr6
+        -Dsolr.port=8983
+        -Dsolr.secureComms=none
+        -Dsolr.base.url=/solr
+        -Dindex.subsystem.name=solr6
+        -Ddeployment.method=DOCKER_COMPOSE
+        -Xms1g -Xmx1g
+        "
+    volumes:
+      - ./data/acs:/usr/local/tomcat/alf_data/
+      - ./acs/alfresco-global.properties:/usr/local/tomcat/shared/classes/alfresco-global.properties
+      - ./acs/log4j.properties:/usr/local/tomcat/webapps/alfresco/WEB-INF/classes/log4j.properties
+    ports:
+      - 8082:8080 # Browser port
+      - 5005:5005 # Remote Debug
+    links:
+      - solr6
+      - postgres:postgres
+    depends_on:
+      - solr6
+      - postgres
 
   share:
-      image: alfresco/alfresco-share:6.0
-      mem_limit: 1g
-      environment:
-        - REPO_HOST=content
-        - REPO_PORT=8080
-        - "CATALINA_OPTS= -Xms500m -Xmx500m"
-      ports:
-        - 8081:8080
-      links:
-        - content:content
-      depends_on:
-        - content
+    image: alfresco/alfresco-share:6.0
+    mem_limit: 1g
+    environment:
+      - REPO_HOST=content
+      - REPO_PORT=8080
+      - "CATALINA_OPTS= -Xms500m -Xmx500m"
+    ports:
+      - 8081:8080
+    links:
+      - content:content
+    depends_on:
+      - content
 
   solr6:
-      image: alfresco/alfresco-search-services:1.1.1
-      mem_limit: 2500m
-      environment:
-        #Solr needs to know how to register itself with Alfresco
-        - SOLR_ALFRESCO_HOST=content
-        - SOLR_ALFRESCO_PORT=8080
-        #Alfresco needs to know how to call solr
-        - SOLR_SOLR_HOST=solr6
-        - SOLR_SOLR_PORT=8983
-        #Create the default alfresco and archive cores
-        - SOLR_CREATE_ALFRESCO_DEFAULTS=alfresco,archive
-        - "SOLR_JAVA_MEM=-Xms2g -Xmx2g"
-      volumes:
-        - ./data/solr/contentstore:/opt/alfresco-search-services/contentstore/
-        - ./data/solr/data:/opt/alfresco-search-services/data/
-      ports:
-        - 8083:8983 #Browser port
+    image: alfresco/alfresco-search-services:1.1.1
+    mem_limit: 2500m
+    environment:
+      #Solr needs to know how to register itself with Alfresco
+      - SOLR_ALFRESCO_HOST=content
+      - SOLR_ALFRESCO_PORT=8080
+      #Alfresco needs to know how to call solr
+      - SOLR_SOLR_HOST=solr6
+      - SOLR_SOLR_PORT=8983
+      #Create the default alfresco and archive cores
+      - SOLR_CREATE_ALFRESCO_DEFAULTS=alfresco,archive
+      - "SOLR_JAVA_MEM=-Xms2g -Xmx2g"
+    volumes:
+      - ./data/solr/contentstore:/opt/alfresco-search-services/contentstore/
+      - ./data/solr/data:/opt/alfresco-search-services/data/
+    ports:
+      - 8083:8983 #Browser port
 
   elasticsearch:
     image: elasticsearch:1.7.3
@@ -100,14 +100,14 @@ services:
     depends_on:
       - postgres
 
-# UNCOMMENT TO ENABLE LDAP SERVER
+  # UNCOMMENT TO ENABLE LDAP SERVER
   ldap:
-   image: greggigon/apacheds
-   environment:
-     - BOOTSTRAP_FILE=/bootstrap/demo.ldif
-   restart: always
-   ports:
-     - 10389:10389
-   volumes:
-     - ./data/ldap/data:/data
-     - ./ldap/bootstrap:/bootstrap
+    image: greggigon/apacheds
+    environment:
+      - BOOTSTRAP_FILE=/bootstrap/demo.ldif
+    restart: always
+    ports:
+      - 10389:10389
+    volumes:
+      - ./data/ldap/data:/data
+      - ./ldap/bootstrap:/bootstrap
