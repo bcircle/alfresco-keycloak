@@ -18,9 +18,9 @@ docker-compsoe up
 
 ```bash
 curl -d 'client_id=alfresco-client' \
-    -d 'username=admin' \
-    -d 'password=1234' \
-    -d 'grant_type=password' 'http://localhost:8080/auth/realms/alfresco-dbp/protocol/openid-connect/token' | python -m json.tool
+ -d 'username=admin' \
+ -d 'password=1234' \
+ -d 'grant_type=password' 'http://localhost:8080/auth/realms/alfresco-dbp/protocol/openid-connect/token' | python -m json.tool
 
 brew cask install apache-directory-studio
 ```
