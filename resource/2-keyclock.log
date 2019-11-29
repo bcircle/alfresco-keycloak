@@ -1,0 +1,280 @@
+docker logs -f 4501350b29e5cec4fa119609e9fda28b21da6424c4bb07c639c9827d23002b66
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+29-Nov-2019 06:24:53.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.43
+29-Nov-2019 06:24:53.626 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 4 2019 20:53:15 UTC
+29-Nov-2019 06:24:53.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.43.0
+29-Nov-2019 06:24:53.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+29-Nov-2019 06:24:53.636 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.9.184-linuxkit
+29-Nov-2019 06:24:53.661 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+29-Nov-2019 06:24:53.668 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/java/jdk-11.0.1
+29-Nov-2019 06:24:53.669 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.1+13
+29-Nov-2019 06:24:53.671 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+29-Nov-2019 06:24:53.672 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /usr/local/tomcat
+29-Nov-2019 06:24:53.678 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/local/tomcat
+29-Nov-2019 06:24:53.679 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+29-Nov-2019 06:24:53.695 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+29-Nov-2019 06:24:53.699 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+29-Nov-2019 06:24:53.700 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/usr/local/tomcat/conf/logging.properties
+29-Nov-2019 06:24:53.701 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Nov-2019 06:24:53.704 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Ddb.driver=org.postgresql.Driver
+29-Nov-2019 06:24:53.708 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Ddb.username=alfresco
+29-Nov-2019 06:24:53.726 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Ddb.password=alfresco
+29-Nov-2019 06:24:53.727 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Ddb.url=jdbc:postgresql://postgres:5432/alfresco
+29-Nov-2019 06:24:53.727 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsolr.host=solr6
+29-Nov-2019 06:24:53.728 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsolr.port=8983
+29-Nov-2019 06:24:53.730 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsolr.secureComms=none
+29-Nov-2019 06:24:53.732 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsolr.base.url=/solr
+29-Nov-2019 06:24:53.739 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dindex.subsystem.name=solr6
+29-Nov-2019 06:24:53.739 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dshare.host=127.0.0.1
+29-Nov-2019 06:24:53.749 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dshare.port=8080
+29-Nov-2019 06:24:53.762 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dalfresco.host=localhost
+29-Nov-2019 06:24:53.765 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dalfresco.port=8080
+29-Nov-2019 06:24:53.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Daos.baseUrlOverwrite=http://localhost:8080/alfresco/aos
+29-Nov-2019 06:24:53.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dmessaging.broker.url=failover:(nio://activemq:61616)?timeout=3000&jms.useCompression=true
+29-Nov-2019 06:24:53.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Ddeployment.method=DOCKER_COMPOSE
+29-Nov-2019 06:24:53.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dlocal.transform.service.enabled=true
+29-Nov-2019 06:24:53.799 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -DlocalTransform.pdfrenderer.url=http://alfresco-pdf-renderer:8090/
+29-Nov-2019 06:24:53.800 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -DlocalTransform.imagemagick.url=http://imagemagick:8090/
+29-Nov-2019 06:24:53.802 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -DlocalTransform.libreoffice.url=http://libreoffice:8090/
+29-Nov-2019 06:24:53.812 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -DlocalTransform.tika.url=http://tika:8090/
+29-Nov-2019 06:24:53.815 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -DlocalTransform.misc.url=http://transform-misc:8090/
+29-Nov-2019 06:24:53.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dlegacy.transform.service.enabled=true
+29-Nov-2019 06:24:53.826 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dalfresco-pdf-renderer.url=http://alfresco-pdf-renderer:8090/
+29-Nov-2019 06:24:53.852 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djodconverter.url=http://libreoffice:8090/
+29-Nov-2019 06:24:53.852 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dimg.url=http://imagemagick:8090/
+29-Nov-2019 06:24:53.853 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dtika.url=http://tika:8090/
+29-Nov-2019 06:24:53.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dtransform.misc.url=http://transform-misc:8090/
+29-Nov-2019 06:24:53.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcsrf.filter.enabled=false
+29-Nov-2019 06:24:53.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms1500m
+29-Nov-2019 06:24:53.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx1500m
+29-Nov-2019 06:24:53.912 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+29-Nov-2019 06:24:53.924 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+29-Nov-2019 06:24:53.925 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+29-Nov-2019 06:24:53.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+29-Nov-2019 06:24:53.937 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.security.manager
+29-Nov-2019 06:24:53.941 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.security.policy==/usr/local/tomcat/conf/catalina.policy
+29-Nov-2019 06:24:53.944 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/usr/local/tomcat
+29-Nov-2019 06:24:53.948 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/local/tomcat
+29-Nov-2019 06:24:53.949 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/usr/local/tomcat/temp
+29-Nov-2019 06:24:53.955 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.4.8].
+29-Nov-2019 06:24:53.960 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+29-Nov-2019 06:24:53.980 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+29-Nov-2019 06:24:54.042 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2k-fips  26 Jan 2017]
+29-Nov-2019 06:24:54.653 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+29-Nov-2019 06:24:54.862 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+29-Nov-2019 06:24:55.082 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+29-Nov-2019 06:24:55.104 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+29-Nov-2019 06:24:55.135 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 7533 ms
+29-Nov-2019 06:24:55.848 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+29-Nov-2019 06:24:55.851 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.43
+29-Nov-2019 06:24:56.241 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/api-explorer]
+29-Nov-2019 06:25:00.614 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+29-Nov-2019 06:25:01.060 WARNING [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [270] milliseconds.
+29-Nov-2019 06:25:07.392 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/api-explorer] has finished in [11,151] ms
+29-Nov-2019 06:25:07.394 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/ROOT]
+29-Nov-2019 06:25:07.493 WARNING [localhost-startStop-1] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'debug' to '100' did not find a matching property.
+29-Nov-2019 06:25:08.927 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+29-Nov-2019 06:25:09.032 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/ROOT] has finished in [1,639] ms
+29-Nov-2019 06:25:09.104 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/alfresco]
+29-Nov-2019 06:25:16.724 WARNING [localhost-startStop-1] org.apache.juli.ClassLoaderLogManager.readConfiguration Reading /usr/local/tomcat/webapps/alfresco/WEB-INF/classes/logging.properties is not permitted. See "per context logging" in the default catalina.policy file.
+29-Nov-2019 06:26:03.683 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-11-29 06:26:15,436  WARN  [heartbeat.datasender.HBDataSenderServiceBuilder] [localhost-startStop-1] Setting the Heartbeat sender cron with property 'heartbeat.sender.cronExpression' is no longer supported.
+2019-11-29 06:26:15,636  INFO  [domain.schema.SchemaBootstrap] [localhost-startStop-1] Ignoring script patch (post-Hibernate): patch.db-V4.2-metadata-query-indexes
+2019-11-29 06:26:15,636  INFO  [domain.schema.SchemaBootstrap] [localhost-startStop-1] Ignoring script patch (post-Hibernate): patch.db-V5.1-metadata-query-indexes
+2019-11-29 06:26:15,637  INFO  [domain.schema.SchemaBootstrap] [localhost-startStop-1] Ignoring script patch (post-Hibernate): patch.db-V5.2-remove-jbpm-tables-from-db
+2019-11-29 06:26:16,086  INFO  [alfresco.repo.admin] [localhost-startStop-1] Using database URL 'jdbc:postgresql://postgres:5432/alfresco' with user 'alfresco'.
+2019-11-29 06:26:16,087  INFO  [alfresco.repo.admin] [localhost-startStop-1] Connected to database PostgreSQL version 11.4 (Debian 11.4-1.pgdg90+1)
+2019-11-29 06:26:23,676  INFO  [management.subsystems.ChildApplicationContextFactory] [localhost-startStop-1] Starting 'Authentication' subsystem, ID: [Authentication, managed, identity-service1]
+2019-11-29 06:26:24,144  WARN  [management.subsystems.ChildApplicationContextFactory$ChildApplicationContext] [localhost-startStop-1] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authenticationComponent' defined in URL [jar:file:/usr/local/tomcat/webapps/alfresco/WEB-INF/lib/alfresco-repository-7.134.1.jar!/alfresco/subsystems/Authentication/identity-service/identity-service-authentication-context.xml]: Cannot resolve reference to bean 'authenticatorAuthzClient' while setting bean property 'authenticatorAuthzClient'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authenticatorAuthzClient': FactoryBean threw exception on object creation; nested exception is java.lang.RuntimeException: Could not obtain configuration from server [http://wk-macbook.local:8080/auth/realms/alfresco-dbp/.well-known/uma2-configuration].
+2019-11-29 06:26:24,160  WARN  [management.subsystems.ChildApplicationContextFactory] [localhost-startStop-1] Startup of 'Authentication' subsystem, ID: [Authentication, managed, identity-service1] failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authenticationComponent' defined in URL [jar:file:/usr/local/tomcat/webapps/alfresco/WEB-INF/lib/alfresco-repository-7.134.1.jar!/alfresco/subsystems/Authentication/identity-service/identity-service-authentication-context.xml]: Cannot resolve reference to bean 'authenticatorAuthzClient' while setting bean property 'authenticatorAuthzClient'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authenticatorAuthzClient': FactoryBean threw exception on object creation; nested exception is java.lang.RuntimeException: Could not obtain configuration from server [http://wk-macbook.local:8080/auth/realms/alfresco-dbp/.well-known/uma2-configuration].
+        at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:314)
+        at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:110)
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1681)
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1433)
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+        at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+        at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+        at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+        at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+        at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:845)
+        at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+        at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+        at org.alfresco.repo.management.subsystems.ChildApplicationContextFactory$ApplicationContextState.start(ChildApplicationContextFactory.java:824)
+        at org.alfresco.repo.management.subsystems.AbstractPropertyBackedBean.start(AbstractPropertyBackedBean.java:1098)
+        at org.alfresco.repo.management.subsystems.AbstractPropertyBackedBean.getState(AbstractPropertyBackedBean.java:320)
+        at org.alfresco.repo.management.subsystems.ChildApplicationContextFactory.getApplicationContext(ChildApplicationContextFactory.java:450)
+        at org.alfresco.repo.management.subsystems.DefaultChildApplicationContextManager$ApplicationContextManagerState.getApplicationContext(DefaultChildApplicationContextManager.java:382)
+        at org.alfresco.repo.management.subsystems.DefaultChildApplicationContextManager$ApplicationContextManagerState.start(DefaultChildApplicationContextManager.java:328)
+        at org.alfresco.repo.management.subsystems.AbstractPropertyBackedBean.start(AbstractPropertyBackedBean.java:1098)
+        at org.alfresco.repo.management.subsystems.AbstractPropertyBackedBean.getState(AbstractPropertyBackedBean.java:320)
+        at org.alfresco.repo.management.subsystems.DefaultChildApplicationContextManager.getInstanceIds(DefaultChildApplicationContextManager.java:187)
+        at org.alfresco.repo.admin.patch.impl.AdminUserPatch.afterPropertiesSet(AdminUserPatch.java:111)
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$invokeInitMethods$5(AbstractAutowireCapableBeanFactory.java:1828)
+        at java.base/java.security.AccessController.doPrivileged(Native Method)
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1827)
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1774)
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+        at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+        at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+        at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+        at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+        at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:845)
+        at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+        at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+        at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:400)
+        at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:291)
+        at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:103)
+        at org.alfresco.web.app.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:70)
+        at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4699)
+        at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5165)
+        at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+        at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:743)
+        at org.apache.catalina.core.ContainerBase.access$000(ContainerBase.java:129)
+        at org.apache.catalina.core.ContainerBase$PrivilegedAddChild.run(ContainerBase.java:150)
+        at org.apache.catalina.core.ContainerBase$PrivilegedAddChild.run(ContainerBase.java:140)
+        at java.base/java.security.AccessController.doPrivileged(Native Method)
+        at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:717)
+        at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:714)
+        at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1125)
+        at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1859)
+        at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+        at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+        at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authenticatorAuthzClient': FactoryBean threw exception on object creation; nested exception is java.lang.RuntimeException: Could not obtain configuration from server [http://wk-macbook.local:8080/auth/realms/alfresco-dbp/.well-known/uma2-configuration].
+        at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:178)
+        at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getObjectFromFactoryBean(FactoryBeanRegistrySupport.java:101)
+        at org.springframework.beans.factory.support.AbstractBeanFactory.getObjectForBeanInstance(AbstractBeanFactory.java:1674)
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getObjectForBeanInstance(AbstractAutowireCapableBeanFactory.java:1249)
+        at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:330)
+        at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+        at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:303)
+        ... 56 more
+Caused by: java.lang.RuntimeException: Could not obtain configuration from server [http://wk-macbook.local:8080/auth/realms/alfresco-dbp/.well-known/uma2-configuration].
+        at org.keycloak.authorization.client.AuthzClient.<init>(AuthzClient.java:253)
+        at org.keycloak.authorization.client.AuthzClient.create(AuthzClient.java:85)
+        at org.alfresco.repo.security.authentication.identityservice.AuthenticatorAuthzClientFactoryBean.getObject(AuthenticatorAuthzClientFactoryBean.java:96)
+        at org.alfresco.repo.security.authentication.identityservice.AuthenticatorAuthzClientFactoryBean.getObject(AuthenticatorAuthzClientFactoryBean.java:1)
+        at java.base/java.security.AccessController.doPrivileged(Native Method)
+        at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:164)
+        ... 62 more
+Caused by: org.keycloak.authorization.client.util.HttpResponseException: Unexpected response from server: 500 / Internal Server Error / Response from server:
+        at org.keycloak.authorization.client.util.HttpMethod.execute(HttpMethod.java:95)
+        at org.keycloak.authorization.client.util.HttpMethodResponse$2.execute(HttpMethodResponse.java:50)
+        at org.keycloak.authorization.client.AuthzClient.<init>(AuthzClient.java:251)
+        ... 67 more
+2019-11-29 06:26:24,197  INFO  [management.subsystems.ChildApplicationContextFactory] [localhost-startStop-1] Starting 'Authentication' subsystem, ID: [Authentication, managed, alfrescoNtlm1]
+2019-11-29 06:26:24,381  INFO  [management.subsystems.ChildApplicationContextFactory] [localhost-startStop-1] Startup of 'Authentication' subsystem, ID: [Authentication, managed, alfrescoNtlm1] complete
+2019-11-29 06:26:24,383  WARN  [context.support.XmlWebApplicationContext] [localhost-startStop-1] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'patch.updateAdminUserWhenDefault' defined in URL [jar:file:/usr/local/tomcat/webapps/alfresco/WEB-INF/lib/alfresco-repository-7.134.1.jar!/alfresco/patch/patch-services-context.xml]: Invocation of init method failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authenticationComponent' defined in URL [jar:file:/usr/local/tomcat/webapps/alfresco/WEB-INF/lib/alfresco-repository-7.134.1.jar!/alfresco/subsystems/Authentication/identity-service/identity-service-authentication-context.xml]: Cannot resolve reference to bean 'authenticatorAuthzClient' while setting bean property 'authenticatorAuthzClient'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authenticatorAuthzClient': FactoryBean threw exception on object creation; nested exception is java.lang.RuntimeException: Could not obtain configuration from server [http://wk-macbook.local:8080/auth/realms/alfresco-dbp/.well-known/uma2-configuration].
+2019-11-29 06:26:24,751  INFO  [management.subsystems.ChildApplicationContextFactory] [localhost-startStop-1] Stopping 'Authentication' subsystem, ID: [Authentication, managed, alfrescoNtlm1]
+2019-11-29 06:26:24,757  INFO  [management.subsystems.ChildApplicationContextFactory] [localhost-startStop-1] Stopped 'Authentication' subsystem, ID: [Authentication, managed, alfrescoNtlm1]
+2019-11-29 06:26:24,776  ERROR [web.context.ContextLoader] [localhost-startStop-1] Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'patch.updateAdminUserWhenDefault' defined in URL [jar:file:/usr/local/tomcat/webapps/alfresco/WEB-INF/lib/alfresco-repository-7.134.1.jar!/alfresco/patch/patch-services-context.xml]: Invocation of init method failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authenticationComponent' defined in URL [jar:file:/usr/local/tomcat/webapps/alfresco/WEB-INF/lib/alfresco-repository-7.134.1.jar!/alfresco/subsystems/Authentication/identity-service/identity-service-authentication-context.xml]: Cannot resolve reference to bean 'authenticatorAuthzClient' while setting bean property 'authenticatorAuthzClient'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authenticatorAuthzClient': FactoryBean threw exception on object creation; nested exception is java.lang.RuntimeException: Could not obtain configuration from server [http://wk-macbook.local:8080/auth/realms/alfresco-dbp/.well-known/uma2-configuration].
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1778)
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+        at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+        at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+        at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+        at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+        at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:845)
+        at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+        at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+        at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:400)
+        at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:291)
+        at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:103)
+        at org.alfresco.web.app.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:70)
+        at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4699)
+        at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5165)
+        at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+        at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:743)
+        at org.apache.catalina.core.ContainerBase.access$000(ContainerBase.java:129)
+        at org.apache.catalina.core.ContainerBase$PrivilegedAddChild.run(ContainerBase.java:150)
+        at org.apache.catalina.core.ContainerBase$PrivilegedAddChild.run(ContainerBase.java:140)
+        at java.base/java.security.AccessController.doPrivileged(Native Method)
+        at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:717)
+        at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:714)
+        at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1125)
+        at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1859)
+        at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+        at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+        at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authenticationComponent' defined in URL [jar:file:/usr/local/tomcat/webapps/alfresco/WEB-INF/lib/alfresco-repository-7.134.1.jar!/alfresco/subsystems/Authentication/identity-service/identity-service-authentication-context.xml]: Cannot resolve reference to bean 'authenticatorAuthzClient' while setting bean property 'authenticatorAuthzClient'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authenticatorAuthzClient': FactoryBean threw exception on object creation; nested exception is java.lang.RuntimeException: Could not obtain configuration from server [http://wk-macbook.local:8080/auth/realms/alfresco-dbp/.well-known/uma2-configuration].
+        at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:314)
+        at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:110)
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1681)
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1433)
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+        at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+        at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+        at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+        at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+        at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:845)
+        at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+        at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+        at org.alfresco.repo.management.subsystems.ChildApplicationContextFactory$ApplicationContextState.start(ChildApplicationContextFactory.java:824)
+        at org.alfresco.repo.management.subsystems.AbstractPropertyBackedBean.start(AbstractPropertyBackedBean.java:1098)
+        at org.alfresco.repo.management.subsystems.AbstractPropertyBackedBean.getState(AbstractPropertyBackedBean.java:320)
+        at org.alfresco.repo.management.subsystems.ChildApplicationContextFactory.getApplicationContext(ChildApplicationContextFactory.java:450)
+        at org.alfresco.repo.management.subsystems.DefaultChildApplicationContextManager$ApplicationContextManagerState.getApplicationContext(DefaultChildApplicationContextManager.java:382)
+        at org.alfresco.repo.management.subsystems.DefaultChildApplicationContextManager$ApplicationContextManagerState.start(DefaultChildApplicationContextManager.java:328)
+        at org.alfresco.repo.management.subsystems.AbstractPropertyBackedBean.start(AbstractPropertyBackedBean.java:1098)
+        at org.alfresco.repo.management.subsystems.AbstractPropertyBackedBean.getState(AbstractPropertyBackedBean.java:320)
+        at org.alfresco.repo.management.subsystems.DefaultChildApplicationContextManager.getInstanceIds(DefaultChildApplicationContextManager.java:187)
+        at org.alfresco.repo.admin.patch.impl.AdminUserPatch.afterPropertiesSet(AdminUserPatch.java:111)
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$invokeInitMethods$5(AbstractAutowireCapableBeanFactory.java:1828)
+        at java.base/java.security.AccessController.doPrivileged(Native Method)
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1827)
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1774)
+        ... 30 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authenticatorAuthzClient': FactoryBean threw exception on object creation; nested exception is java.lang.RuntimeException: Could not obtain configuration from server [http://wk-macbook.local:8080/auth/realms/alfresco-dbp/.well-known/uma2-configuration].
+        at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:178)
+        at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getObjectFromFactoryBean(FactoryBeanRegistrySupport.java:101)
+        at org.springframework.beans.factory.support.AbstractBeanFactory.getObjectForBeanInstance(AbstractBeanFactory.java:1674)
+        at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getObjectForBeanInstance(AbstractAutowireCapableBeanFactory.java:1249)
+        at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:330)
+        at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+        at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:303)
+        ... 56 more
+Caused by: java.lang.RuntimeException: Could not obtain configuration from server [http://wk-macbook.local:8080/auth/realms/alfresco-dbp/.well-known/uma2-configuration].
+        at org.keycloak.authorization.client.AuthzClient.<init>(AuthzClient.java:253)
+        at org.keycloak.authorization.client.AuthzClient.create(AuthzClient.java:85)
+        at org.alfresco.repo.security.authentication.identityservice.AuthenticatorAuthzClientFactoryBean.getObject(AuthenticatorAuthzClientFactoryBean.java:96)
+        at org.alfresco.repo.security.authentication.identityservice.AuthenticatorAuthzClientFactoryBean.getObject(AuthenticatorAuthzClientFactoryBean.java:1)
+        at java.base/java.security.AccessController.doPrivileged(Native Method)
+        at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:164)
+        ... 62 more
+Caused by: org.keycloak.authorization.client.util.HttpResponseException: Unexpected response from server: 500 / Internal Server Error / Response from server:
+        at org.keycloak.authorization.client.util.HttpMethod.execute(HttpMethod.java:95)
+        at org.keycloak.authorization.client.util.HttpMethodResponse$2.execute(HttpMethodResponse.java:50)
+        at org.keycloak.authorization.client.AuthzClient.<init>(AuthzClient.java:251)
+        ... 67 more
+29-Nov-2019 06:26:24.801 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+29-Nov-2019 06:26:24.803 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal Context [/alfresco] startup failed due to previous errors
+29-Nov-2019 06:26:24.892 WARNING [localhost-startStop-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [alfresco] appears to have started a thread named [QuartzScheduler_Worker-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.1/java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+29-Nov-2019 06:26:24.895 WARNING [localhost-startStop-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [alfresco] appears to have started a thread named [QuartzScheduler_Worker-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.1/java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+29-Nov-2019 06:26:24.896 WARNING [localhost-startStop-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [alfresco] appears to have started a thread named [QuartzScheduler_QuartzSchedulerThread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.1/java.lang.Object.wait(Native Method)
+ org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:427)
+29-Nov-2019 06:26:24.927 SEVERE [localhost-startStop-1] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [alfresco] created a ThreadLocal with key of type [java.lang.ThreadLocal.SuppliedThreadLocal] (value [java.lang.ThreadLocal$SuppliedThreadLocal@3243474]) and a value of type [org.alfresco.util.transaction.TransactionSupportUtil.ResourcesHolder] (value [org.alfresco.util.transaction.TransactionSupportUtil$ResourcesHolder@6b2b9062]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+29-Nov-2019 06:26:24.928 SEVERE [localhost-startStop-1] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [alfresco] created a ThreadLocal with key of type [org.alfresco.repo.template.QNameAwareObjectWrapper$1] (value [org.alfresco.repo.template.QNameAwareObjectWrapper$1@f4ee0ec]) and a value of type [org.alfresco.repo.template.QNameAwareObjectWrapper$1$1] (value [org.alfresco.repo.template.QNameAwareObjectWrapper$1$1@3d9b721e]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+29-Nov-2019 06:26:24.929 SEVERE [localhost-startStop-1] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [alfresco] created a ThreadLocal with key of type [java.lang.ThreadLocal.SuppliedThreadLocal] (value [java.lang.ThreadLocal$SuppliedThreadLocal@59b8364]) and a value of type [org.alfresco.util.CachingDateFormat] (value [yyyy-MM-dd]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+29-Nov-2019 06:26:24.930 SEVERE [localhost-startStop-1] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [alfresco] created a ThreadLocal with key of type [java.lang.ThreadLocal.SuppliedThreadLocal] (value [java.lang.ThreadLocal$SuppliedThreadLocal@3204bb35]) and a value of type [org.alfresco.repo.content.transform.LocalTransformServiceRegistry.LocalData] (value [(transformers: 32 transforms: 1886 t-engines: 5 files: 2)]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+29-Nov-2019 06:26:24.950 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/alfresco] has finished in [75,846] ms
+29-Nov-2019 06:26:24.952 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/_vti_bin]
+29-Nov-2019 06:26:25.151 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+29-Nov-2019 06:26:25.158 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/_vti_bin] has finished in [206] ms
+29-Nov-2019 06:26:25.173 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+29-Nov-2019 06:26:25.185 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+29-Nov-2019 06:26:25.217 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 90139 ms

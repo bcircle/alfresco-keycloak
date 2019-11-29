@@ -2,17 +2,20 @@ version: "2"
 
 services:
   ldap:
-    image: greggigon/apacheds
-    environment:
-      - BOOTSTRAP_FILE=/bootstrap/demo.ldif
-    restart: always
-    # ports:
-    #   - 10389:10389
-    volumes:
-      - ./data/ldap/data:/data
-      - ./ldap/bootstrap:/bootstrap
+    image: osixia/openldap:1.3.0
+    ports:
+      - 10389:389
 
-  k-postgres:
+    environment:
+      - LDAP_ADMIN_PASSWORD=admin
+
+    command: "--copy-service"
+
+    volumes:
+      - "./data/ldap/ldap:/var/lib/ldap"
+      - "./data/ldap/slapd.d:/etc/ldap/slapd.d"
+
+  key-postgres:
     image: postgres:11.4
     mem_limit: 512m
     environment:
@@ -20,24 +23,22 @@ services:
       - POSTGRES_USER=alfresco
       - POSTGRES_DB=alfresco
     command: postgres -c max_connections=300 -c log_min_messages=LOG
-    ports:
-      - 5432:5432
     volumes:
       - ./data/postgres-keycloak:/var/lib/postgresql/data
       - ./postgres:/docker-entrypoint-initdb.d
 
   identity-service:
-    image: jboss/keycloak:3.4.3.Final
+    image: jboss/keycloak:8.0.0
     environment:
+      DB_VENDOR: POSTGRES
+      DB_ADDR: key-postgres
+      DB_DATABASE: keycloak
+      DB_USER: alfresco
+      DB_SCHEMA: public
+      DB_PASSWORD: alfresco
       KEYCLOAK_USER: admin
       KEYCLOAK_PASSWORD: admin
-      POSTGRES_PORT_5432_TCP_ADDR: k-postgres
-      POSTGRES_PORT_5432_TCP_PORT: 5432
-      POSTGRES_DATABASE: keycloak
-      POSTGRES_USER: alfresco
-      POSTGRES_PASSWORD: alfresco
     ports:
       - 8080:8080
-
     depends_on:
-      - k-postgres
+      - key-postgres

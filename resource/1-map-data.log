@@ -1,0 +1,688 @@
+7.434 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dalfresco-pdf-renderer.url=http://alfresco-pdf-renderer:8090/
+29-Nov-2019 05:23:07.449 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djodconverter.url=http://libreoffice:8090/
+29-Nov-2019 05:23:07.451 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dimg.url=http://imagemagick:8090/
+29-Nov-2019 05:23:07.452 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dtika.url=http://tika:8090/
+29-Nov-2019 05:23:07.460 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dtransform.misc.url=http://transform-misc:8090/
+29-Nov-2019 05:23:07.463 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcsrf.filter.enabled=false
+29-Nov-2019 05:23:07.483 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms1500m
+29-Nov-2019 05:23:07.495 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx1500m
+29-Nov-2019 05:23:07.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+29-Nov-2019 05:23:07.505 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+29-Nov-2019 05:23:07.511 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+29-Nov-2019 05:23:07.512 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+29-Nov-2019 05:23:07.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.security.manager
+29-Nov-2019 05:23:07.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.security.policy==/usr/local/tomcat/conf/catalina.policy
+29-Nov-2019 05:23:07.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/usr/local/tomcat
+29-Nov-2019 05:23:07.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/local/tomcat
+29-Nov-2019 05:23:07.551 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/usr/local/tomcat/temp
+29-Nov-2019 05:23:07.564 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.4.8].
+29-Nov-2019 05:23:07.565 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+29-Nov-2019 05:23:07.566 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+29-Nov-2019 05:23:07.572 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2k-fips  26 Jan 2017]
+29-Nov-2019 05:23:08.035 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+29-Nov-2019 05:23:08.180 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+29-Nov-2019 05:23:08.279 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+29-Nov-2019 05:23:08.301 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+29-Nov-2019 05:23:08.318 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 14326 ms
+29-Nov-2019 05:23:09.224 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+29-Nov-2019 05:23:09.243 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.43
+29-Nov-2019 05:23:09.342 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/api-explorer]
+29-Nov-2019 05:23:13.640 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+29-Nov-2019 05:23:14.299 WARNING [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [415] milliseconds.
+29-Nov-2019 05:23:18.819 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/api-explorer] has finished in [9,477] ms
+29-Nov-2019 05:23:18.835 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/ROOT]
+29-Nov-2019 05:23:18.880 WARNING [localhost-startStop-1] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'debug' to '100' did not find a matching property.
+29-Nov-2019 05:23:19.790 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+29-Nov-2019 05:23:19.863 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/ROOT] has finished in [1,028] ms
+29-Nov-2019 05:23:19.870 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/alfresco]
+29-Nov-2019 05:23:23.024 WARNING [localhost-startStop-1] org.apache.juli.ClassLoaderLogManager.readConfiguration Reading /usr/local/tomcat/webapps/alfresco/WEB-INF/classes/logging.properties is not permitted. See "per context logging" in the default catalina.policy file.
+29-Nov-2019 05:23:53.885 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-11-29 05:24:06,281  WARN  [heartbeat.datasender.HBDataSenderServiceBuilder] [localhost-startStop-1] Setting the Heartbeat sender cron with property 'heartbeat.sender.cronExpression' is no longer supported.
+2019-11-29 05:24:06,493  INFO  [domain.schema.SchemaBootstrap] [localhost-startStop-1] Ignoring script patch (post-Hibernate): patch.db-V4.2-metadata-query-indexes
+2019-11-29 05:24:06,494  INFO  [domain.schema.SchemaBootstrap] [localhost-startStop-1] Ignoring script patch (post-Hibernate): patch.db-V5.1-metadata-query-indexes
+2019-11-29 05:24:06,495  INFO  [domain.schema.SchemaBootstrap] [localhost-startStop-1] Ignoring script patch (post-Hibernate): patch.db-V5.2-remove-jbpm-tables-from-db
+2019-11-29 05:24:06,802  INFO  [alfresco.repo.admin] [localhost-startStop-1] Using database URL 'jdbc:postgresql://postgres:5432/alfresco' with user 'alfresco'.
+2019-11-29 05:24:06,803  INFO  [alfresco.repo.admin] [localhost-startStop-1] Connected to database PostgreSQL version 11.4 (Debian 11.4-1.pgdg90+1)
+2019-11-29 05:24:14,941  INFO  [management.subsystems.ChildApplicationContextFactory] [localhost-startStop-1] Starting 'Authentication' subsystem, ID: [Authentication, managed, alfrescoNtlm1]
+2019-11-29 05:24:15,030  INFO  [management.subsystems.ChildApplicationContextFactory] [localhost-startStop-1] Startup of 'Authentication' subsystem, ID: [Authentication, managed, alfrescoNtlm1] complete
+2019-11-29 05:24:16,750  INFO  [extensions.webscripts.TemplateProcessorRegistry] [localhost-startStop-1] Registered template processor Repository Template Processor for extension ftl
+2019-11-29 05:24:16,760  INFO  [extensions.webscripts.ScriptProcessorRegistry] [localhost-startStop-1] Registered script processor Repository Script Processor for extension js
+2019-11-29 05:24:19,053  INFO  [management.subsystems.ChildApplicationContextFactory] [localhost-startStop-1] Starting 'ContentStore' subsystem, ID: [ContentStore, managed, unencrypted]
+2019-11-29 05:24:19,106  INFO  [management.subsystems.ChildApplicationContextFactory] [localhost-startStop-1] Startup of 'ContentStore' subsystem, ID: [ContentStore, managed, unencrypted] complete
+2019-11-29 05:24:19,195  INFO  [domain.schema.SchemaBootstrap] [localhost-startStop-1] Connecting to database: jdbc:postgresql://postgres:5432/alfresco, UserName=alfresco, PostgreSQL JDBC Driver
+2019-11-29 05:24:19,195  INFO  [domain.schema.SchemaBootstrap] [localhost-startStop-1] Schema managed by database dialect org.alfresco.repo.domain.dialect.PostgreSQLDialect.
+2019-11-29 05:24:19,327  INFO  [domain.schema.SchemaBootstrap] [localhost-startStop-1] Applied patches detected: 223
+2019-11-29 05:24:19,436  INFO  [domain.schema.SchemaBootstrap] [localhost-startStop-1] Checking and patching Alfresco tables took 108 ms
+2019-11-29 05:24:19,463  INFO  [domain.schema.SchemaBootstrap] [localhost-startStop-1] Activiti tables need to be checked for patches
+2019-11-29 05:24:19,546  INFO  [domain.schema.SchemaBootstrap] [localhost-startStop-1] Checking and patching Activiti tables took 82 ms
+2019-11-29 05:24:19,644  INFO  [domain.schema.SchemaBootstrap] [localhost-startStop-1] Checking that all patches have been applied took 97 ms
+2019-11-29 05:24:19,644  INFO  [domain.schema.SchemaBootstrap] [localhost-startStop-1] Updating the DB schema took 446 ms
+2019-11-29 05:24:19,646  INFO  [domain.schema.SchemaBootstrap] [localhost-startStop-1] No changes were made to the schema.
+2019-11-29 05:24:21,272  INFO  [management.subsystems.ChildApplicationContextFactory] [localhost-startStop-1] Starting 'thirdparty' subsystem, ID: [thirdparty, default]
+2019-11-29 05:24:21,388  INFO  [management.subsystems.ChildApplicationContextFactory] [localhost-startStop-1] Startup of 'thirdparty' subsystem, ID: [thirdparty, default] complete
+2019-11-29 05:24:21,389  INFO  [management.subsystems.ChildApplicationContextFactory] [localhost-startStop-1] Starting 'OOoJodconverter' subsystem, ID: [OOoJodconverter, default]
+2019-11-29 05:24:21,458  INFO  [management.subsystems.ChildApplicationContextFactory] [localhost-startStop-1] Startup of 'OOoJodconverter' subsystem, ID: [OOoJodconverter, default] complete
+2019-11-29 05:24:21,462  WARN  [repo.admin.ConfigurationChecker] [localhost-startStop-1] The 'dir.root' property is set to a relative path './alf_data'.  'dir.root' should be overridden to point to a specific folder.
+2019-11-29 05:24:21,463  INFO  [repo.admin.ConfigurationChecker] [localhost-startStop-1] The root data directory ('dir.root') is: ./alf_data
+2019-11-29 05:24:21,496  ERROR [repo.admin.ConfigurationChecker] [localhost-startStop-1] CONTENT INTEGRITY ERROR: System content not found in content store: 'store://2019/11/28/11/58/fe9d6919-74a4-4e6c-86c5-0b8366ced29d.bin'
+2019-11-29 05:24:21,497  ERROR [repo.admin.ConfigurationChecker] [localhost-startStop-1] Ensure that the 'dir.root' property './alf_data' is pointing to the correct data location.
+2019-11-29 05:24:21,514  ERROR [web.context.ContextLoader] [localhost-startStop-1] Context initialization failed
+org.alfresco.error.AlfrescoRuntimeException: 10290018 Ensure that the 'dir.root' property './alf_data' is pointing to the correct data location.
+        at org.alfresco.repo.admin.ConfigurationChecker.check(ConfigurationChecker.java:212)
+        at org.alfresco.repo.admin.ConfigurationChecker.access$0(ConfigurationChecker.java:167)
+        at org.alfresco.repo.admin.ConfigurationChecker$1$1.doWork(ConfigurationChecker.java:155)
+        at org.alfresco.repo.security.authentication.AuthenticationUtil.runAs(AuthenticationUtil.java:602)
+        at org.alfresco.repo.admin.ConfigurationChecker$1.execute(ConfigurationChecker.java:151)
+        at org.alfresco.repo.transaction.RetryingTransactionHelper.doInTransaction(RetryingTransactionHelper.java:450)
+        at org.alfresco.repo.transaction.RetryingTransactionHelper.doInTransaction(RetryingTransactionHelper.java:338)
+        at org.alfresco.repo.admin.ConfigurationChecker.onBootstrap(ConfigurationChecker.java:161)
+        at org.springframework.extensions.surf.util.AbstractLifecycleBean.onApplicationEvent(AbstractLifecycleBean.java:56)
+        at org.alfresco.repo.management.SafeApplicationEventMulticaster.multicastEventInternal(SafeApplicationEventMulticaster.java:221)
+        at org.alfresco.repo.management.SafeApplicationEventMulticaster.multicastEvent(SafeApplicationEventMulticaster.java:186)
+        at org.alfresco.repo.management.SafeApplicationEventMulticaster.multicastEvent(SafeApplicationEventMulticaster.java:206)
+        at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:402)
+        at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:359)
+        at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:896)
+        at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552)
+        at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:400)
+        at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:291)
+        at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:103)
+        at org.alfresco.web.app.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:70)
+        at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4699)
+        at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5165)
+        at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+        at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:743)
+        at org.apache.catalina.core.ContainerBase.access$000(ContainerBase.java:129)
+        at org.apache.catalina.core.ContainerBase$PrivilegedAddChild.run(ContainerBase.java:150)
+        at org.apache.catalina.core.ContainerBase$PrivilegedAddChild.run(ContainerBase.java:140)
+        at java.base/java.security.AccessController.doPrivileged(Native Method)
+        at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:717)
+        at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:714)
+        at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1125)
+        at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1859)
+        at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+        at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+        at java.base/java.lang.Thread.run(Thread.java:834)
+29-Nov-2019 05:24:21.543 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+29-Nov-2019 05:24:21.547 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal Context [/alfresco] startup failed due to previous errors
+2019-11-29 05:24:21,621  WARN  [context.support.XmlWebApplicationContext] [localhost-startStop-1] Exception thrown from ApplicationListener handling ContextClosedEvent
+java.lang.NullPointerException
+        at org.alfresco.repo.workflow.activiti.ActivitiEngineInitializer.onShutdown(ActivitiEngineInitializer.java:65)
+        at org.springframework.extensions.surf.util.AbstractLifecycleBean.onApplicationEvent(AbstractLifecycleBean.java:67)
+        at org.alfresco.repo.management.SafeApplicationEventMulticaster.multicastEventInternal(SafeApplicationEventMulticaster.java:221)
+        at org.alfresco.repo.management.SafeApplicationEventMulticaster.multicastEvent(SafeApplicationEventMulticaster.java:191)
+        at org.alfresco.repo.management.SafeApplicationEventMulticaster.multicastEvent(SafeApplicationEventMulticaster.java:206)
+        at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:402)
+        at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:359)
+        at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1009)
+        at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:975)
+        at org.springframework.web.context.ContextLoader.closeWebApplicationContext(ContextLoader.java:516)
+        at org.springframework.web.context.ContextLoaderListener.contextDestroyed(ContextLoaderListener.java:112)
+        at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4746)
+        at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5403)
+        at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226)
+        at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+        at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:743)
+        at org.apache.catalina.core.ContainerBase.access$000(ContainerBase.java:129)
+        at org.apache.catalina.core.ContainerBase$PrivilegedAddChild.run(ContainerBase.java:150)
+        at org.apache.catalina.core.ContainerBase$PrivilegedAddChild.run(ContainerBase.java:140)
+        at java.base/java.security.AccessController.doPrivileged(Native Method)
+        at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:717)
+        at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:714)
+        at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1125)
+        at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1859)
+        at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+        at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+        at java.base/java.lang.Thread.run(Thread.java:834)
+2019-11-29 05:24:21,838  INFO  [management.subsystems.ChildApplicationContextFactory] [localhost-startStop-1] Stopping 'OOoJodconverter' subsystem, ID: [OOoJodconverter, default]
+2019-11-29 05:24:21,841  INFO  [management.subsystems.ChildApplicationContextFactory] [localhost-startStop-1] Stopped 'OOoJodconverter' subsystem, ID: [OOoJodconverter, default]
+2019-11-29 05:24:21,842  INFO  [management.subsystems.ChildApplicationContextFactory] [localhost-startStop-1] Stopping 'ContentStore' subsystem, ID: [ContentStore, managed, unencrypted]
+2019-11-29 05:24:21,843  INFO  [management.subsystems.ChildApplicationContextFactory] [localhost-startStop-1] Stopped 'ContentStore' subsystem, ID: [ContentStore, managed, unencrypted]
+2019-11-29 05:24:21,999  INFO  [management.subsystems.ChildApplicationContextFactory] [localhost-startStop-1] Stopping 'thirdparty' subsystem, ID: [thirdparty, default]
+2019-11-29 05:24:22,001  INFO  [management.subsystems.ChildApplicationContextFactory] [localhost-startStop-1] Stopped 'thirdparty' subsystem, ID: [thirdparty, default]
+2019-11-29 05:24:22,004  INFO  [management.subsystems.ChildApplicationContextFactory] [localhost-startStop-1] Stopping 'Authentication' subsystem, ID: [Authentication, managed, alfrescoNtlm1]
+2019-11-29 05:24:22,005  INFO  [management.subsystems.ChildApplicationContextFactory] [localhost-startStop-1] Stopped 'Authentication' subsystem, ID: [Authentication, managed, alfrescoNtlm1]
+29-Nov-2019 05:24:22.099 WARNING [localhost-startStop-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [alfresco] appears to have started a thread named [QuartzScheduler_Worker-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.1/java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+29-Nov-2019 05:24:22.101 WARNING [localhost-startStop-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [alfresco] appears to have started a thread named [QuartzScheduler_Worker-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.1/java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+29-Nov-2019 05:24:22.104 WARNING [localhost-startStop-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [alfresco] appears to have started a thread named [Timer-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.1/java.lang.Object.wait(Native Method)
+ java.base@11.0.1/java.lang.Object.wait(Object.java:328)
+ java.base@11.0.1/java.util.TimerThread.mainLoop(Timer.java:527)
+ java.base@11.0.1/java.util.TimerThread.run(Timer.java:506)
+29-Nov-2019 05:24:22.105 WARNING [localhost-startStop-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [alfresco] appears to have started a thread named [Timer-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.1/java.lang.Object.wait(Native Method)
+ java.base@11.0.1/java.lang.Object.wait(Object.java:328)
+ java.base@11.0.1/java.util.TimerThread.mainLoop(Timer.java:527)
+ java.base@11.0.1/java.util.TimerThread.run(Timer.java:506)
+29-Nov-2019 05:24:22.108 WARNING [localhost-startStop-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [alfresco] appears to have started a thread named [Timer-3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.1/java.lang.Object.wait(Native Method)
+ java.base@11.0.1/java.lang.Object.wait(Object.java:328)
+ java.base@11.0.1/java.util.TimerThread.mainLoop(Timer.java:527)
+ java.base@11.0.1/java.util.TimerThread.run(Timer.java:506)
+29-Nov-2019 05:24:22.110 WARNING [localhost-startStop-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [alfresco] appears to have started a thread named [Timer-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.1/java.lang.Object.wait(Native Method)
+ java.base@11.0.1/java.lang.Object.wait(Object.java:328)
+ java.base@11.0.1/java.util.TimerThread.mainLoop(Timer.java:527)
+ java.base@11.0.1/java.util.TimerThread.run(Timer.java:506)
+29-Nov-2019 05:24:22.112 WARNING [localhost-startStop-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [alfresco] appears to have started a thread named [Timer-5] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.1/java.lang.Object.wait(Native Method)
+ java.base@11.0.1/java.lang.Object.wait(Object.java:328)
+ java.base@11.0.1/java.util.TimerThread.mainLoop(Timer.java:527)
+ java.base@11.0.1/java.util.TimerThread.run(Timer.java:506)
+29-Nov-2019 05:24:22.114 WARNING [localhost-startStop-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [alfresco] appears to have started a thread named [QuartzScheduler_QuartzSchedulerThread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.1/java.lang.Object.wait(Native Method)
+ org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:427)
+29-Nov-2019 05:24:22.117 SEVERE [localhost-startStop-1] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [alfresco] created a ThreadLocal with key of type [org.alfresco.repo.template.QNameAwareObjectWrapper$1] (value [org.alfresco.repo.template.QNameAwareObjectWrapper$1@7860d769]) and a value of type [org.alfresco.repo.template.QNameAwareObjectWrapper$1$1] (value [org.alfresco.repo.template.QNameAwareObjectWrapper$1$1@4f2da93b]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+29-Nov-2019 05:24:22.122 SEVERE [localhost-startStop-1] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [alfresco] created a ThreadLocal with key of type [java.lang.ThreadLocal.SuppliedThreadLocal] (value [java.lang.ThreadLocal$SuppliedThreadLocal@4d98b79b]) and a value of type [org.alfresco.repo.content.MimetypeMap.Data] (value [(mimetypes: 196 from XML: 196 from JSON: 0 files: 0)]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+29-Nov-2019 05:24:22.125 SEVERE [localhost-startStop-1] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [alfresco] created a ThreadLocal with key of type [java.lang.ThreadLocal.SuppliedThreadLocal] (value [java.lang.ThreadLocal$SuppliedThreadLocal@13a14bce]) and a value of type [org.alfresco.util.transaction.TransactionSupportUtil.ResourcesHolder] (value [org.alfresco.util.transaction.TransactionSupportUtil$ResourcesHolder@2845508e]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+29-Nov-2019 05:24:22.127 SEVERE [localhost-startStop-1] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [alfresco] created a ThreadLocal with key of type [java.lang.ThreadLocal.SuppliedThreadLocal] (value [java.lang.ThreadLocal$SuppliedThreadLocal@79616ef3]) and a value of type [org.alfresco.util.CachingDateFormat] (value [yyyy-MM-dd]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+29-Nov-2019 05:24:22.128 SEVERE [localhost-startStop-1] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [alfresco] created a ThreadLocal with key of type [org.alfresco.repo.template.QNameAwareObjectWrapper$1] (value [org.alfresco.repo.template.QNameAwareObjectWrapper$1@788a6cad]) and a value of type [org.alfresco.repo.template.QNameAwareObjectWrapper$1$1] (value [org.alfresco.repo.template.QNameAwareObjectWrapper$1$1@61ecb749]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+29-Nov-2019 05:24:22.143 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/alfresco] has finished in [62,280] ms
+29-Nov-2019 05:24:22.144 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/_vti_bin]
+29-Nov-2019 05:24:22.330 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+29-Nov-2019 05:24:22.340 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/_vti_bin] has finished in [196] ms
+29-Nov-2019 05:24:22.355 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+29-Nov-2019 05:24:22.371 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+29-Nov-2019 05:24:22.435 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 74154 ms
+2019-11-29 05:30:00,003  ERROR [repo.content.MimetypeMap] [QuartzScheduler_Worker-1] Config read failed. null
+java.lang.NullPointerException
+        at org.springframework.extensions.config.ConfigImpl.<init>(ConfigImpl.java:51)
+        at org.springframework.extensions.config.BaseConfigService.getConfig(BaseConfigService.java:190)
+        at org.springframework.extensions.config.BaseConfigService.getConfig(BaseConfigService.java:171)
+        at org.alfresco.repo.content.MimetypeMap.readConfig(MimetypeMap.java:648)
+        at org.alfresco.repo.content.MimetypeMap$1.readConfig(MimetypeMap.java:458)
+        at org.alfresco.util.ConfigScheduler.readConfigAndReplace(ConfigScheduler.java:208)
+        at org.alfresco.util.ConfigScheduler$ConfigSchedulerJob.execute(ConfigScheduler.java:64)
+        at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+        at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2019-11-29 05:30:00,069  ERROR [repo.content.MimetypeMap] [QuartzScheduler_Worker-2] Config read failed. null
+java.lang.NullPointerException
+        at org.springframework.extensions.config.ConfigImpl.<init>(ConfigImpl.java:51)
+        at org.springframework.extensions.config.BaseConfigService.getConfig(BaseConfigService.java:190)
+        at org.springframework.extensions.config.BaseConfigService.getConfig(BaseConfigService.java:171)
+        at org.alfresco.repo.content.MimetypeMap.readConfig(MimetypeMap.java:648)
+        at org.alfresco.repo.content.MimetypeMap$1.readConfig(MimetypeMap.java:458)
+        at org.alfresco.util.ConfigScheduler.readConfigAndReplace(ConfigScheduler.java:208)
+        at org.alfresco.util.ConfigScheduler$ConfigSchedulerJob.execute(ConfigScheduler.java:64)
+        at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+        at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+29-Nov-2019 05:30:01.990 INFO [QuartzScheduler_Worker-1] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [alfresco/renditions/0100-baseRenditions.json]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+        java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [alfresco/renditions/0100-baseRenditions.json]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+                at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1380)
+                at org.apache.catalina.loader.WebappClassLoaderBase.getResourceAsStream(WebappClassLoaderBase.java:1109)
+                at org.alfresco.util.ConfigFileFinder.getResourceAsStream(ConfigFileFinder.java:181)
+                at org.alfresco.util.ConfigFileFinder.readFromJar(ConfigFileFinder.java:139)
+                at org.alfresco.util.ConfigFileFinder.readFiles(ConfigFileFinder.java:87)
+                at org.alfresco.repo.rendition2.RenditionDefinitionRegistry2Impl.readConfig(RenditionDefinitionRegistry2Impl.java:290)
+                at org.alfresco.repo.rendition2.RenditionDefinitionRegistry2Impl$1.readConfig(RenditionDefinitionRegistry2Impl.java:164)
+                at org.alfresco.util.ConfigScheduler.readConfigAndReplace(ConfigScheduler.java:208)
+                at org.alfresco.util.ConfigScheduler$ConfigSchedulerJob.execute(ConfigScheduler.java:64)
+                at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+                at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2019-11-29 05:30:01,992  ERROR [repo.rendition2.RenditionDefinitionRegistry2Impl] [QuartzScheduler_Worker-1] Config read failed. Illegal access: this web application instance has been stopped already. Could not load [alfresco/renditions/0100-baseRenditions.json]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [alfresco/renditions/0100-baseRenditions.json]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+        at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1380)
+        at org.apache.catalina.loader.WebappClassLoaderBase.getResourceAsStream(WebappClassLoaderBase.java:1109)
+        at org.alfresco.util.ConfigFileFinder.getResourceAsStream(ConfigFileFinder.java:181)
+        at org.alfresco.util.ConfigFileFinder.readFromJar(ConfigFileFinder.java:139)
+        at org.alfresco.util.ConfigFileFinder.readFiles(ConfigFileFinder.java:87)
+        at org.alfresco.repo.rendition2.RenditionDefinitionRegistry2Impl.readConfig(RenditionDefinitionRegistry2Impl.java:290)
+        at org.alfresco.repo.rendition2.RenditionDefinitionRegistry2Impl$1.readConfig(RenditionDefinitionRegistry2Impl.java:164)
+        at org.alfresco.util.ConfigScheduler.readConfigAndReplace(ConfigScheduler.java:208)
+        at org.alfresco.util.ConfigScheduler$ConfigSchedulerJob.execute(ConfigScheduler.java:64)
+        at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+        at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+29-Nov-2019 05:30:04.009 INFO [QuartzScheduler_Worker-2] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [org/apache/http/client/version.properties]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+        java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [org/apache/http/client/version.properties]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+                at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1380)
+                at org.apache.catalina.loader.WebappClassLoaderBase.getResourceAsStream(WebappClassLoaderBase.java:1109)
+                at org.apache.http.util.VersionInfo.loadVersionInfo(VersionInfo.java:233)
+                at org.apache.http.util.VersionInfo.getUserAgent(VersionInfo.java:319)
+                at org.apache.http.impl.client.HttpClientBuilder.build(HttpClientBuilder.java:1057)
+                at org.apache.http.impl.client.HttpClients.createDefault(HttpClients.java:56)
+                at org.alfresco.transform.client.registry.CombinedConfig.addRemoteConfig(CombinedConfig.java:134)
+                at org.alfresco.transform.client.registry.CombinedConfig.addRemoteConfig(CombinedConfig.java:115)
+                at org.alfresco.repo.content.transform.LocalTransformServiceRegistry.readConfig(LocalTransformServiceRegistry.java:141)
+                at org.alfresco.transform.client.registry.TransformServiceRegistryImpl$1.readConfig(TransformServiceRegistryImpl.java:80)
+                at org.alfresco.util.ConfigScheduler.readConfigAndReplace(ConfigScheduler.java:208)
+                at org.alfresco.util.ConfigScheduler$ConfigSchedulerJob.execute(ConfigScheduler.java:64)
+                at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+                at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2019-11-29 05:30:04,010  ERROR [content.transform.LocalTransformServiceRegistry] [QuartzScheduler_Worker-2] Config read failed. Illegal access: this web application instance has been stopped already. Could not load [org/apache/http/client/version.properties]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [org/apache/http/client/version.properties]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+        at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1380)
+        at org.apache.catalina.loader.WebappClassLoaderBase.getResourceAsStream(WebappClassLoaderBase.java:1109)
+        at org.apache.http.util.VersionInfo.loadVersionInfo(VersionInfo.java:233)
+        at org.apache.http.util.VersionInfo.getUserAgent(VersionInfo.java:319)
+        at org.apache.http.impl.client.HttpClientBuilder.build(HttpClientBuilder.java:1057)
+        at org.apache.http.impl.client.HttpClients.createDefault(HttpClients.java:56)
+        at org.alfresco.transform.client.registry.CombinedConfig.addRemoteConfig(CombinedConfig.java:134)
+        at org.alfresco.transform.client.registry.CombinedConfig.addRemoteConfig(CombinedConfig.java:115)
+        at org.alfresco.repo.content.transform.LocalTransformServiceRegistry.readConfig(LocalTransformServiceRegistry.java:141)
+        at org.alfresco.transform.client.registry.TransformServiceRegistryImpl$1.readConfig(TransformServiceRegistryImpl.java:80)
+        at org.alfresco.util.ConfigScheduler.readConfigAndReplace(ConfigScheduler.java:208)
+        at org.alfresco.util.ConfigScheduler$ConfigSchedulerJob.execute(ConfigScheduler.java:64)
+        at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+        at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2019-11-29 05:30:10,001  ERROR [repo.content.MimetypeMap] [QuartzScheduler_Worker-1] Config read failed. null
+java.lang.NullPointerException
+        at org.springframework.extensions.config.ConfigImpl.<init>(ConfigImpl.java:51)
+        at org.springframework.extensions.config.BaseConfigService.getConfig(BaseConfigService.java:190)
+        at org.springframework.extensions.config.BaseConfigService.getConfig(BaseConfigService.java:171)
+        at org.alfresco.repo.content.MimetypeMap.readConfig(MimetypeMap.java:648)
+        at org.alfresco.repo.content.MimetypeMap$1.readConfig(MimetypeMap.java:458)
+        at org.alfresco.util.ConfigScheduler.readConfigAndReplace(ConfigScheduler.java:208)
+        at org.alfresco.util.ConfigScheduler$ConfigSchedulerJob.execute(ConfigScheduler.java:64)
+        at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+        at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+29-Nov-2019 05:30:10.009 INFO [QuartzScheduler_Worker-2] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [org/apache/http/client/version.properties]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+        java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [org/apache/http/client/version.properties]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+                at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1380)
+                at org.apache.catalina.loader.WebappClassLoaderBase.getResourceAsStream(WebappClassLoaderBase.java:1109)
+                at org.apache.http.util.VersionInfo.loadVersionInfo(VersionInfo.java:233)
+                at org.apache.http.util.VersionInfo.getUserAgent(VersionInfo.java:319)
+                at org.apache.http.impl.client.HttpClientBuilder.build(HttpClientBuilder.java:1057)
+                at org.apache.http.impl.client.HttpClients.createDefault(HttpClients.java:56)
+                at org.alfresco.transform.client.registry.CombinedConfig.addRemoteConfig(CombinedConfig.java:134)
+                at org.alfresco.transform.client.registry.CombinedConfig.addRemoteConfig(CombinedConfig.java:115)
+                at org.alfresco.repo.content.transform.LocalTransformServiceRegistry.readConfig(LocalTransformServiceRegistry.java:141)
+                at org.alfresco.transform.client.registry.TransformServiceRegistryImpl$1.readConfig(TransformServiceRegistryImpl.java:80)
+                at org.alfresco.util.ConfigScheduler.readConfigAndReplace(ConfigScheduler.java:208)
+                at org.alfresco.util.ConfigScheduler$ConfigSchedulerJob.execute(ConfigScheduler.java:64)
+                at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+                at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2019-11-29 05:30:10,010  ERROR [content.transform.LocalTransformServiceRegistry] [QuartzScheduler_Worker-2] Config read failed. Illegal access: this web application instance has been stopped already. Could not load [org/apache/http/client/version.properties]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [org/apache/http/client/version.properties]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+        at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1380)
+        at org.apache.catalina.loader.WebappClassLoaderBase.getResourceAsStream(WebappClassLoaderBase.java:1109)
+        at org.apache.http.util.VersionInfo.loadVersionInfo(VersionInfo.java:233)
+        at org.apache.http.util.VersionInfo.getUserAgent(VersionInfo.java:319)
+        at org.apache.http.impl.client.HttpClientBuilder.build(HttpClientBuilder.java:1057)
+        at org.apache.http.impl.client.HttpClients.createDefault(HttpClients.java:56)
+        at org.alfresco.transform.client.registry.CombinedConfig.addRemoteConfig(CombinedConfig.java:134)
+        at org.alfresco.transform.client.registry.CombinedConfig.addRemoteConfig(CombinedConfig.java:115)
+        at org.alfresco.repo.content.transform.LocalTransformServiceRegistry.readConfig(LocalTransformServiceRegistry.java:141)
+        at org.alfresco.transform.client.registry.TransformServiceRegistryImpl$1.readConfig(TransformServiceRegistryImpl.java:80)
+        at org.alfresco.util.ConfigScheduler.readConfigAndReplace(ConfigScheduler.java:208)
+        at org.alfresco.util.ConfigScheduler$ConfigSchedulerJob.execute(ConfigScheduler.java:64)
+        at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+        at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2019-11-29 05:30:10,087  ERROR [repo.rendition2.RenditionDefinitionRegistry2Impl] [QuartzScheduler_Worker-1] Config read failed. Illegal access: this web application instance has been stopped already. Could not load [alfresco/renditions/0100-baseRenditions.json]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [alfresco/renditions/0100-baseRenditions.json]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+        at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1380)
+        at org.apache.catalina.loader.WebappClassLoaderBase.getResourceAsStream(WebappClassLoaderBase.java:1109)
+        at org.alfresco.util.ConfigFileFinder.getResourceAsStream(ConfigFileFinder.java:181)
+        at org.alfresco.util.ConfigFileFinder.readFromJar(ConfigFileFinder.java:139)
+        at org.alfresco.util.ConfigFileFinder.readFiles(ConfigFileFinder.java:87)
+        at org.alfresco.repo.rendition2.RenditionDefinitionRegistry2Impl.readConfig(RenditionDefinitionRegistry2Impl.java:290)
+        at org.alfresco.repo.rendition2.RenditionDefinitionRegistry2Impl$1.readConfig(RenditionDefinitionRegistry2Impl.java:164)
+        at org.alfresco.util.ConfigScheduler.readConfigAndReplace(ConfigScheduler.java:208)
+        at org.alfresco.util.ConfigScheduler$ConfigSchedulerJob.execute(ConfigScheduler.java:64)
+        at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+        at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+29-Nov-2019 05:30:10.071 INFO [QuartzScheduler_Worker-1] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [alfresco/renditions/0100-baseRenditions.json]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+        java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [alfresco/renditions/0100-baseRenditions.json]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+                at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1380)
+                at org.apache.catalina.loader.WebappClassLoaderBase.getResourceAsStream(WebappClassLoaderBase.java:1109)
+                at org.alfresco.util.ConfigFileFinder.getResourceAsStream(ConfigFileFinder.java:181)
+                at org.alfresco.util.ConfigFileFinder.readFromJar(ConfigFileFinder.java:139)
+                at org.alfresco.util.ConfigFileFinder.readFiles(ConfigFileFinder.java:87)
+                at org.alfresco.repo.rendition2.RenditionDefinitionRegistry2Impl.readConfig(RenditionDefinitionRegistry2Impl.java:290)
+                at org.alfresco.repo.rendition2.RenditionDefinitionRegistry2Impl$1.readConfig(RenditionDefinitionRegistry2Impl.java:164)
+                at org.alfresco.util.ConfigScheduler.readConfigAndReplace(ConfigScheduler.java:208)
+                at org.alfresco.util.ConfigScheduler$ConfigSchedulerJob.execute(ConfigScheduler.java:64)
+                at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+                at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+29-Nov-2019 05:30:20.003 INFO [QuartzScheduler_Worker-1] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [org/apache/http/client/version.properties]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+        java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [org/apache/http/client/version.properties]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+                at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1380)
+                at org.apache.catalina.loader.WebappClassLoaderBase.getResourceAsStream(WebappClassLoaderBase.java:1109)
+                at org.apache.http.util.VersionInfo.loadVersionInfo(VersionInfo.java:233)
+                at org.apache.http.util.VersionInfo.getUserAgent(VersionInfo.java:319)
+                at org.apache.http.impl.client.HttpClientBuilder.build(HttpClientBuilder.java:1057)
+                at org.apache.http.impl.client.HttpClients.createDefault(HttpClients.java:56)
+                at org.alfresco.transform.client.registry.CombinedConfig.addRemoteConfig(CombinedConfig.java:134)
+                at org.alfresco.transform.client.registry.CombinedConfig.addRemoteConfig(CombinedConfig.java:115)
+                at org.alfresco.repo.content.transform.LocalTransformServiceRegistry.readConfig(LocalTransformServiceRegistry.java:141)
+                at org.alfresco.transform.client.registry.TransformServiceRegistryImpl$1.readConfig(TransformServiceRegistryImpl.java:80)
+                at org.alfresco.util.ConfigScheduler.readConfigAndReplace(ConfigScheduler.java:208)
+                at org.alfresco.util.ConfigScheduler$ConfigSchedulerJob.execute(ConfigScheduler.java:64)
+                at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+                at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2019-11-29 05:30:20,001  ERROR [repo.content.MimetypeMap] [QuartzScheduler_Worker-2] Config read failed. null
+java.lang.NullPointerException
+        at org.springframework.extensions.config.ConfigImpl.<init>(ConfigImpl.java:51)
+        at org.springframework.extensions.config.BaseConfigService.getConfig(BaseConfigService.java:190)
+        at org.springframework.extensions.config.BaseConfigService.getConfig(BaseConfigService.java:171)
+        at org.alfresco.repo.content.MimetypeMap.readConfig(MimetypeMap.java:648)
+        at org.alfresco.repo.content.MimetypeMap$1.readConfig(MimetypeMap.java:458)
+        at org.alfresco.util.ConfigScheduler.readConfigAndReplace(ConfigScheduler.java:208)
+        at org.alfresco.util.ConfigScheduler$ConfigSchedulerJob.execute(ConfigScheduler.java:64)
+        at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+        at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2019-11-29 05:30:20,004  ERROR [content.transform.LocalTransformServiceRegistry] [QuartzScheduler_Worker-1] Config read failed. Illegal access: this web application instance has been stopped already. Could not load [org/apache/http/client/version.properties]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [org/apache/http/client/version.properties]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+        at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1380)
+        at org.apache.catalina.loader.WebappClassLoaderBase.getResourceAsStream(WebappClassLoaderBase.java:1109)
+        at org.apache.http.util.VersionInfo.loadVersionInfo(VersionInfo.java:233)
+        at org.apache.http.util.VersionInfo.getUserAgent(VersionInfo.java:319)
+        at org.apache.http.impl.client.HttpClientBuilder.build(HttpClientBuilder.java:1057)
+        at org.apache.http.impl.client.HttpClients.createDefault(HttpClients.java:56)
+        at org.alfresco.transform.client.registry.CombinedConfig.addRemoteConfig(CombinedConfig.java:134)
+        at org.alfresco.transform.client.registry.CombinedConfig.addRemoteConfig(CombinedConfig.java:115)
+        at org.alfresco.repo.content.transform.LocalTransformServiceRegistry.readConfig(LocalTransformServiceRegistry.java:141)
+        at org.alfresco.transform.client.registry.TransformServiceRegistryImpl$1.readConfig(TransformServiceRegistryImpl.java:80)
+        at org.alfresco.util.ConfigScheduler.readConfigAndReplace(ConfigScheduler.java:208)
+        at org.alfresco.util.ConfigScheduler$ConfigSchedulerJob.execute(ConfigScheduler.java:64)
+        at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+        at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+29-Nov-2019 05:30:20.031 INFO [QuartzScheduler_Worker-2] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [alfresco/renditions/0100-baseRenditions.json]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+        java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [alfresco/renditions/0100-baseRenditions.json]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+                at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1380)
+                at org.apache.catalina.loader.WebappClassLoaderBase.getResourceAsStream(WebappClassLoaderBase.java:1109)
+                at org.alfresco.util.ConfigFileFinder.getResourceAsStream(ConfigFileFinder.java:181)
+                at org.alfresco.util.ConfigFileFinder.readFromJar(ConfigFileFinder.java:139)
+                at org.alfresco.util.ConfigFileFinder.readFiles(ConfigFileFinder.java:87)
+                at org.alfresco.repo.rendition2.RenditionDefinitionRegistry2Impl.readConfig(RenditionDefinitionRegistry2Impl.java:290)
+                at org.alfresco.repo.rendition2.RenditionDefinitionRegistry2Impl$1.readConfig(RenditionDefinitionRegistry2Impl.java:164)
+                at org.alfresco.util.ConfigScheduler.readConfigAndReplace(ConfigScheduler.java:208)
+                at org.alfresco.util.ConfigScheduler$ConfigSchedulerJob.execute(ConfigScheduler.java:64)
+                at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+                at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2019-11-29 05:30:20,034  ERROR [repo.rendition2.RenditionDefinitionRegistry2Impl] [QuartzScheduler_Worker-2] Config read failed. Illegal access: this web application instance has been stopped already. Could not load [alfresco/renditions/0100-baseRenditions.json]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [alfresco/renditions/0100-baseRenditions.json]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+        at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1380)
+        at org.apache.catalina.loader.WebappClassLoaderBase.getResourceAsStream(WebappClassLoaderBase.java:1109)
+        at org.alfresco.util.ConfigFileFinder.getResourceAsStream(ConfigFileFinder.java:181)
+        at org.alfresco.util.ConfigFileFinder.readFromJar(ConfigFileFinder.java:139)
+        at org.alfresco.util.ConfigFileFinder.readFiles(ConfigFileFinder.java:87)
+        at org.alfresco.repo.rendition2.RenditionDefinitionRegistry2Impl.readConfig(RenditionDefinitionRegistry2Impl.java:290)
+        at org.alfresco.repo.rendition2.RenditionDefinitionRegistry2Impl$1.readConfig(RenditionDefinitionRegistry2Impl.java:164)
+        at org.alfresco.util.ConfigScheduler.readConfigAndReplace(ConfigScheduler.java:208)
+        at org.alfresco.util.ConfigScheduler$ConfigSchedulerJob.execute(ConfigScheduler.java:64)
+        at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+        at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2019-11-29 05:30:30,001  ERROR [repo.content.MimetypeMap] [QuartzScheduler_Worker-1] Config read failed. null
+java.lang.NullPointerException
+        at org.springframework.extensions.config.ConfigImpl.<init>(ConfigImpl.java:51)
+        at org.springframework.extensions.config.BaseConfigService.getConfig(BaseConfigService.java:190)
+        at org.springframework.extensions.config.BaseConfigService.getConfig(BaseConfigService.java:171)
+        at org.alfresco.repo.content.MimetypeMap.readConfig(MimetypeMap.java:648)
+        at org.alfresco.repo.content.MimetypeMap$1.readConfig(MimetypeMap.java:458)
+        at org.alfresco.util.ConfigScheduler.readConfigAndReplace(ConfigScheduler.java:208)
+        at org.alfresco.util.ConfigScheduler$ConfigSchedulerJob.execute(ConfigScheduler.java:64)
+        at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+        at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+29-Nov-2019 05:30:30.008 INFO [QuartzScheduler_Worker-2] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [org/apache/http/client/version.properties]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+        java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [org/apache/http/client/version.properties]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+                at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1380)
+                at org.apache.catalina.loader.WebappClassLoaderBase.getResourceAsStream(WebappClassLoaderBase.java:1109)
+                at org.apache.http.util.VersionInfo.loadVersionInfo(VersionInfo.java:233)
+                at org.apache.http.util.VersionInfo.getUserAgent(VersionInfo.java:319)
+                at org.apache.http.impl.client.HttpClientBuilder.build(HttpClientBuilder.java:1057)
+                at org.apache.http.impl.client.HttpClients.createDefault(HttpClients.java:56)
+                at org.alfresco.transform.client.registry.CombinedConfig.addRemoteConfig(CombinedConfig.java:134)
+                at org.alfresco.transform.client.registry.CombinedConfig.addRemoteConfig(CombinedConfig.java:115)
+                at org.alfresco.repo.content.transform.LocalTransformServiceRegistry.readConfig(LocalTransformServiceRegistry.java:141)
+                at org.alfresco.transform.client.registry.TransformServiceRegistryImpl$1.readConfig(TransformServiceRegistryImpl.java:80)
+                at org.alfresco.util.ConfigScheduler.readConfigAndReplace(ConfigScheduler.java:208)
+                at org.alfresco.util.ConfigScheduler$ConfigSchedulerJob.execute(ConfigScheduler.java:64)
+                at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+                at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2019-11-29 05:30:30,009  ERROR [content.transform.LocalTransformServiceRegistry] [QuartzScheduler_Worker-2] Config read failed. Illegal access: this web application instance has been stopped already. Could not load [org/apache/http/client/version.properties]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [org/apache/http/client/version.properties]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+        at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1380)
+        at org.apache.catalina.loader.WebappClassLoaderBase.getResourceAsStream(WebappClassLoaderBase.java:1109)
+        at org.apache.http.util.VersionInfo.loadVersionInfo(VersionInfo.java:233)
+        at org.apache.http.util.VersionInfo.getUserAgent(VersionInfo.java:319)
+        at org.apache.http.impl.client.HttpClientBuilder.build(HttpClientBuilder.java:1057)
+        at org.apache.http.impl.client.HttpClients.createDefault(HttpClients.java:56)
+        at org.alfresco.transform.client.registry.CombinedConfig.addRemoteConfig(CombinedConfig.java:134)
+        at org.alfresco.transform.client.registry.CombinedConfig.addRemoteConfig(CombinedConfig.java:115)
+        at org.alfresco.repo.content.transform.LocalTransformServiceRegistry.readConfig(LocalTransformServiceRegistry.java:141)
+        at org.alfresco.transform.client.registry.TransformServiceRegistryImpl$1.readConfig(TransformServiceRegistryImpl.java:80)
+        at org.alfresco.util.ConfigScheduler.readConfigAndReplace(ConfigScheduler.java:208)
+        at org.alfresco.util.ConfigScheduler$ConfigSchedulerJob.execute(ConfigScheduler.java:64)
+        at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+        at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+29-Nov-2019 05:30:30.030 INFO [QuartzScheduler_Worker-1] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [alfresco/renditions/0100-baseRenditions.json]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+        java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [alfresco/renditions/0100-baseRenditions.json]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+                at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1380)
+                at org.apache.catalina.loader.WebappClassLoaderBase.getResourceAsStream(WebappClassLoaderBase.java:1109)
+                at org.alfresco.util.ConfigFileFinder.getResourceAsStream(ConfigFileFinder.java:181)
+                at org.alfresco.util.ConfigFileFinder.readFromJar(ConfigFileFinder.java:139)
+                at org.alfresco.util.ConfigFileFinder.readFiles(ConfigFileFinder.java:87)
+                at org.alfresco.repo.rendition2.RenditionDefinitionRegistry2Impl.readConfig(RenditionDefinitionRegistry2Impl.java:290)
+                at org.alfresco.repo.rendition2.RenditionDefinitionRegistry2Impl$1.readConfig(RenditionDefinitionRegistry2Impl.java:164)
+                at org.alfresco.util.ConfigScheduler.readConfigAndReplace(ConfigScheduler.java:208)
+                at org.alfresco.util.ConfigScheduler$ConfigSchedulerJob.execute(ConfigScheduler.java:64)
+                at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+                at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2019-11-29 05:30:30,033  ERROR [repo.rendition2.RenditionDefinitionRegistry2Impl] [QuartzScheduler_Worker-1] Config read failed. Illegal access: this web application instance has been stopped already. Could not load [alfresco/renditions/0100-baseRenditions.json]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [alfresco/renditions/0100-baseRenditions.json]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+        at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1380)
+        at org.apache.catalina.loader.WebappClassLoaderBase.getResourceAsStream(WebappClassLoaderBase.java:1109)
+        at org.alfresco.util.ConfigFileFinder.getResourceAsStream(ConfigFileFinder.java:181)
+        at org.alfresco.util.ConfigFileFinder.readFromJar(ConfigFileFinder.java:139)
+        at org.alfresco.util.ConfigFileFinder.readFiles(ConfigFileFinder.java:87)
+        at org.alfresco.repo.rendition2.RenditionDefinitionRegistry2Impl.readConfig(RenditionDefinitionRegistry2Impl.java:290)
+        at org.alfresco.repo.rendition2.RenditionDefinitionRegistry2Impl$1.readConfig(RenditionDefinitionRegistry2Impl.java:164)
+        at org.alfresco.util.ConfigScheduler.readConfigAndReplace(ConfigScheduler.java:208)
+        at org.alfresco.util.ConfigScheduler$ConfigSchedulerJob.execute(ConfigScheduler.java:64)
+        at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+        at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2019-11-29 05:30:40,003  ERROR [repo.content.MimetypeMap] [QuartzScheduler_Worker-2] Config read failed. null
+java.lang.NullPointerException
+        at org.springframework.extensions.config.ConfigImpl.<init>(ConfigImpl.java:51)
+        at org.springframework.extensions.config.BaseConfigService.getConfig(BaseConfigService.java:190)
+        at org.springframework.extensions.config.BaseConfigService.getConfig(BaseConfigService.java:171)
+        at org.alfresco.repo.content.MimetypeMap.readConfig(MimetypeMap.java:648)
+        at org.alfresco.repo.content.MimetypeMap$1.readConfig(MimetypeMap.java:458)
+        at org.alfresco.util.ConfigScheduler.readConfigAndReplace(ConfigScheduler.java:208)
+        at org.alfresco.util.ConfigScheduler$ConfigSchedulerJob.execute(ConfigScheduler.java:64)
+        at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+        at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+29-Nov-2019 05:30:40.003 INFO [QuartzScheduler_Worker-1] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [org/apache/http/client/version.properties]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+        java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [org/apache/http/client/version.properties]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+                at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1380)
+                at org.apache.catalina.loader.WebappClassLoaderBase.getResourceAsStream(WebappClassLoaderBase.java:1109)
+                at org.apache.http.util.VersionInfo.loadVersionInfo(VersionInfo.java:233)
+                at org.apache.http.util.VersionInfo.getUserAgent(VersionInfo.java:319)
+                at org.apache.http.impl.client.HttpClientBuilder.build(HttpClientBuilder.java:1057)
+                at org.apache.http.impl.client.HttpClients.createDefault(HttpClients.java:56)
+                at org.alfresco.transform.client.registry.CombinedConfig.addRemoteConfig(CombinedConfig.java:134)
+                at org.alfresco.transform.client.registry.CombinedConfig.addRemoteConfig(CombinedConfig.java:115)
+                at org.alfresco.repo.content.transform.LocalTransformServiceRegistry.readConfig(LocalTransformServiceRegistry.java:141)
+                at org.alfresco.transform.client.registry.TransformServiceRegistryImpl$1.readConfig(TransformServiceRegistryImpl.java:80)
+                at org.alfresco.util.ConfigScheduler.readConfigAndReplace(ConfigScheduler.java:208)
+                at org.alfresco.util.ConfigScheduler$ConfigSchedulerJob.execute(ConfigScheduler.java:64)
+                at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+                at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2019-11-29 05:30:40,018  ERROR [content.transform.LocalTransformServiceRegistry] [QuartzScheduler_Worker-1] Config read failed. Illegal access: this web application instance has been stopped already. Could not load [org/apache/http/client/version.properties]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [org/apache/http/client/version.properties]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+        at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1380)
+        at org.apache.catalina.loader.WebappClassLoaderBase.getResourceAsStream(WebappClassLoaderBase.java:1109)
+        at org.apache.http.util.VersionInfo.loadVersionInfo(VersionInfo.java:233)
+        at org.apache.http.util.VersionInfo.getUserAgent(VersionInfo.java:319)
+        at org.apache.http.impl.client.HttpClientBuilder.build(HttpClientBuilder.java:1057)
+        at org.apache.http.impl.client.HttpClients.createDefault(HttpClients.java:56)
+        at org.alfresco.transform.client.registry.CombinedConfig.addRemoteConfig(CombinedConfig.java:134)
+        at org.alfresco.transform.client.registry.CombinedConfig.addRemoteConfig(CombinedConfig.java:115)
+        at org.alfresco.repo.content.transform.LocalTransformServiceRegistry.readConfig(LocalTransformServiceRegistry.java:141)
+        at org.alfresco.transform.client.registry.TransformServiceRegistryImpl$1.readConfig(TransformServiceRegistryImpl.java:80)
+        at org.alfresco.util.ConfigScheduler.readConfigAndReplace(ConfigScheduler.java:208)
+        at org.alfresco.util.ConfigScheduler$ConfigSchedulerJob.execute(ConfigScheduler.java:64)
+        at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+        at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+29-Nov-2019 05:30:40.029 INFO [QuartzScheduler_Worker-2] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [alfresco/renditions/0100-baseRenditions.json]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+        java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [alfresco/renditions/0100-baseRenditions.json]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+                at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1380)
+                at org.apache.catalina.loader.WebappClassLoaderBase.getResourceAsStream(WebappClassLoaderBase.java:1109)
+                at org.alfresco.util.ConfigFileFinder.getResourceAsStream(ConfigFileFinder.java:181)
+                at org.alfresco.util.ConfigFileFinder.readFromJar(ConfigFileFinder.java:139)
+                at org.alfresco.util.ConfigFileFinder.readFiles(ConfigFileFinder.java:87)
+                at org.alfresco.repo.rendition2.RenditionDefinitionRegistry2Impl.readConfig(RenditionDefinitionRegistry2Impl.java:290)
+                at org.alfresco.repo.rendition2.RenditionDefinitionRegistry2Impl$1.readConfig(RenditionDefinitionRegistry2Impl.java:164)
+                at org.alfresco.util.ConfigScheduler.readConfigAndReplace(ConfigScheduler.java:208)
+                at org.alfresco.util.ConfigScheduler$ConfigSchedulerJob.execute(ConfigScheduler.java:64)
+                at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+                at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2019-11-29 05:30:40,032  ERROR [repo.rendition2.RenditionDefinitionRegistry2Impl] [QuartzScheduler_Worker-2] Config read failed. Illegal access: this web application instance has been stopped already. Could not load [alfresco/renditions/0100-baseRenditions.json]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [alfresco/renditions/0100-baseRenditions.json]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+        at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1380)
+        at org.apache.catalina.loader.WebappClassLoaderBase.getResourceAsStream(WebappClassLoaderBase.java:1109)
+        at org.alfresco.util.ConfigFileFinder.getResourceAsStream(ConfigFileFinder.java:181)
+        at org.alfresco.util.ConfigFileFinder.readFromJar(ConfigFileFinder.java:139)
+        at org.alfresco.util.ConfigFileFinder.readFiles(ConfigFileFinder.java:87)
+        at org.alfresco.repo.rendition2.RenditionDefinitionRegistry2Impl.readConfig(RenditionDefinitionRegistry2Impl.java:290)
+        at org.alfresco.repo.rendition2.RenditionDefinitionRegistry2Impl$1.readConfig(RenditionDefinitionRegistry2Impl.java:164)
+        at org.alfresco.util.ConfigScheduler.readConfigAndReplace(ConfigScheduler.java:208)
+        at org.alfresco.util.ConfigScheduler$ConfigSchedulerJob.execute(ConfigScheduler.java:64)
+        at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+        at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2019-11-29 05:30:50,004  ERROR [repo.content.MimetypeMap] [QuartzScheduler_Worker-1] Config read failed. null
+java.lang.NullPointerException
+        at org.springframework.extensions.config.ConfigImpl.<init>(ConfigImpl.java:51)
+        at org.springframework.extensions.config.BaseConfigService.getConfig(BaseConfigService.java:190)
+        at org.springframework.extensions.config.BaseConfigService.getConfig(BaseConfigService.java:171)
+        at org.alfresco.repo.content.MimetypeMap.readConfig(MimetypeMap.java:648)
+        at org.alfresco.repo.content.MimetypeMap$1.readConfig(MimetypeMap.java:458)
+        at org.alfresco.util.ConfigScheduler.readConfigAndReplace(ConfigScheduler.java:208)
+        at org.alfresco.util.ConfigScheduler$ConfigSchedulerJob.execute(ConfigScheduler.java:64)
+        at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+        at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+29-Nov-2019 05:30:50.023 INFO [QuartzScheduler_Worker-1] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [alfresco/renditions/0100-baseRenditions.json]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+        java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [alfresco/renditions/0100-baseRenditions.json]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+                at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1380)
+                at org.apache.catalina.loader.WebappClassLoaderBase.getResourceAsStream(WebappClassLoaderBase.java:1109)
+                at org.alfresco.util.ConfigFileFinder.getResourceAsStream(ConfigFileFinder.java:181)
+                at org.alfresco.util.ConfigFileFinder.readFromJar(ConfigFileFinder.java:139)
+                at org.alfresco.util.ConfigFileFinder.readFiles(ConfigFileFinder.java:87)
+                at org.alfresco.repo.rendition2.RenditionDefinitionRegistry2Impl.readConfig(RenditionDefinitionRegistry2Impl.java:290)
+                at org.alfresco.repo.rendition2.RenditionDefinitionRegistry2Impl$1.readConfig(RenditionDefinitionRegistry2Impl.java:164)
+                at org.alfresco.util.ConfigScheduler.readConfigAndReplace(ConfigScheduler.java:208)
+                at org.alfresco.util.ConfigScheduler$ConfigSchedulerJob.execute(ConfigScheduler.java:64)
+                at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+                at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2019-11-29 05:30:50,024  ERROR [repo.rendition2.RenditionDefinitionRegistry2Impl] [QuartzScheduler_Worker-1] Config read failed. Illegal access: this web application instance has been stopped already. Could not load [alfresco/renditions/0100-baseRenditions.json]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [alfresco/renditions/0100-baseRenditions.json]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+        at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1380)
+        at org.apache.catalina.loader.WebappClassLoaderBase.getResourceAsStream(WebappClassLoaderBase.java:1109)
+        at org.alfresco.util.ConfigFileFinder.getResourceAsStream(ConfigFileFinder.java:181)
+        at org.alfresco.util.ConfigFileFinder.readFromJar(ConfigFileFinder.java:139)
+        at org.alfresco.util.ConfigFileFinder.readFiles(ConfigFileFinder.java:87)
+        at org.alfresco.repo.rendition2.RenditionDefinitionRegistry2Impl.readConfig(RenditionDefinitionRegistry2Impl.java:290)
+        at org.alfresco.repo.rendition2.RenditionDefinitionRegistry2Impl$1.readConfig(RenditionDefinitionRegistry2Impl.java:164)
+        at org.alfresco.util.ConfigScheduler.readConfigAndReplace(ConfigScheduler.java:208)
+        at org.alfresco.util.ConfigScheduler$ConfigSchedulerJob.execute(ConfigScheduler.java:64)
+        at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+        at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+29-Nov-2019 05:30:50.021 INFO [QuartzScheduler_Worker-2] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [org/apache/http/client/version.properties]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+        java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [org/apache/http/client/version.properties]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+                at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1380)
+                at org.apache.catalina.loader.WebappClassLoaderBase.getResourceAsStream(WebappClassLoaderBase.java:1109)
+                at org.apache.http.util.VersionInfo.loadVersionInfo(VersionInfo.java:233)
+                at org.apache.http.util.VersionInfo.getUserAgent(VersionInfo.java:319)
+                at org.apache.http.impl.client.HttpClientBuilder.build(HttpClientBuilder.java:1057)
+                at org.apache.http.impl.client.HttpClients.createDefault(HttpClients.java:56)
+                at org.alfresco.transform.client.registry.CombinedConfig.addRemoteConfig(CombinedConfig.java:134)
+                at org.alfresco.transform.client.registry.CombinedConfig.addRemoteConfig(CombinedConfig.java:115)
+                at org.alfresco.repo.content.transform.LocalTransformServiceRegistry.readConfig(LocalTransformServiceRegistry.java:141)
+                at org.alfresco.transform.client.registry.TransformServiceRegistryImpl$1.readConfig(TransformServiceRegistryImpl.java:80)
+                at org.alfresco.util.ConfigScheduler.readConfigAndReplace(ConfigScheduler.java:208)
+                at org.alfresco.util.ConfigScheduler$ConfigSchedulerJob.execute(ConfigScheduler.java:64)
+                at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+                at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2019-11-29 05:30:50,028  ERROR [content.transform.LocalTransformServiceRegistry] [QuartzScheduler_Worker-2] Config read failed. Illegal access: this web application instance has been stopped already. Could not load [org/apache/http/client/version.properties]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [org/apache/http/client/version.properties]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+        at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1380)
+        at org.apache.catalina.loader.WebappClassLoaderBase.getResourceAsStream(WebappClassLoaderBase.java:1109)
+        at org.apache.http.util.VersionInfo.loadVersionInfo(VersionInfo.java:233)
+        at org.apache.http.util.VersionInfo.getUserAgent(VersionInfo.java:319)
+        at org.apache.http.impl.client.HttpClientBuilder.build(HttpClientBuilder.java:1057)
+        at org.apache.http.impl.client.HttpClients.createDefault(HttpClients.java:56)
+        at org.alfresco.transform.client.registry.CombinedConfig.addRemoteConfig(CombinedConfig.java:134)
+        at org.alfresco.transform.client.registry.CombinedConfig.addRemoteConfig(CombinedConfig.java:115)
+        at org.alfresco.repo.content.transform.LocalTransformServiceRegistry.readConfig(LocalTransformServiceRegistry.java:141)
+        at org.alfresco.transform.client.registry.TransformServiceRegistryImpl$1.readConfig(TransformServiceRegistryImpl.java:80)
+        at org.alfresco.util.ConfigScheduler.readConfigAndReplace(ConfigScheduler.java:208)
+        at org.alfresco.util.ConfigScheduler$ConfigSchedulerJob.execute(ConfigScheduler.java:64)
+        at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+        at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2019-11-29 05:31:00,009  ERROR [repo.content.MimetypeMap] [QuartzScheduler_Worker-1] Config read failed. null
+java.lang.NullPointerException
+        at org.springframework.extensions.config.ConfigImpl.<init>(ConfigImpl.java:51)
+        at org.springframework.extensions.config.BaseConfigService.getConfig(BaseConfigService.java:190)
+        at org.springframework.extensions.config.BaseConfigService.getConfig(BaseConfigService.java:171)
+        at org.alfresco.repo.content.MimetypeMap.readConfig(MimetypeMap.java:648)
+        at org.alfresco.repo.content.MimetypeMap$1.readConfig(MimetypeMap.java:458)
+        at org.alfresco.util.ConfigScheduler.readConfigAndReplace(ConfigScheduler.java:208)
+        at org.alfresco.util.ConfigScheduler$ConfigSchedulerJob.execute(ConfigScheduler.java:64)
+        at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+        at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+29-Nov-2019 05:31:00.016 INFO [QuartzScheduler_Worker-2] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [org/apache/http/client/version.properties]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+        java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [org/apache/http/client/version.properties]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+                at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1380)
+                at org.apache.catalina.loader.WebappClassLoaderBase.getResourceAsStream(WebappClassLoaderBase.java:1109)
+                at org.apache.http.util.VersionInfo.loadVersionInfo(VersionInfo.java:233)
+                at org.apache.http.util.VersionInfo.getUserAgent(VersionInfo.java:319)
+                at org.apache.http.impl.client.HttpClientBuilder.build(HttpClientBuilder.java:1057)
+                at org.apache.http.impl.client.HttpClients.createDefault(HttpClients.java:56)
+                at org.alfresco.transform.client.registry.CombinedConfig.addRemoteConfig(CombinedConfig.java:134)
+                at org.alfresco.transform.client.registry.CombinedConfig.addRemoteConfig(CombinedConfig.java:115)
+                at org.alfresco.repo.content.transform.LocalTransformServiceRegistry.readConfig(LocalTransformServiceRegistry.java:141)
+                at org.alfresco.transform.client.registry.TransformServiceRegistryImpl$1.readConfig(TransformServiceRegistryImpl.java:80)
+                at org.alfresco.util.ConfigScheduler.readConfigAndReplace(ConfigScheduler.java:208)
+                at org.alfresco.util.ConfigScheduler$ConfigSchedulerJob.execute(ConfigScheduler.java:64)
+                at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+                at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2019-11-29 05:31:00,016  ERROR [content.transform.LocalTransformServiceRegistry] [QuartzScheduler_Worker-2] Config read failed. Illegal access: this web application instance has been stopped already. Could not load [org/apache/http/client/version.properties]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [org/apache/http/client/version.properties]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+        at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1380)
+        at org.apache.catalina.loader.WebappClassLoaderBase.getResourceAsStream(WebappClassLoaderBase.java:1109)
+        at org.apache.http.util.VersionInfo.loadVersionInfo(VersionInfo.java:233)
+        at org.apache.http.util.VersionInfo.getUserAgent(VersionInfo.java:319)
+        at org.apache.http.impl.client.HttpClientBuilder.build(HttpClientBuilder.java:1057)
+        at org.apache.http.impl.client.HttpClients.createDefault(HttpClients.java:56)
+        at org.alfresco.transform.client.registry.CombinedConfig.addRemoteConfig(CombinedConfig.java:134)
+        at org.alfresco.transform.client.registry.CombinedConfig.addRemoteConfig(CombinedConfig.java:115)
+        at org.alfresco.repo.content.transform.LocalTransformServiceRegistry.readConfig(LocalTransformServiceRegistry.java:141)
+        at org.alfresco.transform.client.registry.TransformServiceRegistryImpl$1.readConfig(TransformServiceRegistryImpl.java:80)
+        at org.alfresco.util.ConfigScheduler.readConfigAndReplace(ConfigScheduler.java:208)
+        at org.alfresco.util.ConfigScheduler$ConfigSchedulerJob.execute(ConfigScheduler.java:64)
+        at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+        at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+29-Nov-2019 05:31:00.057 INFO [QuartzScheduler_Worker-1] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [alfresco/renditions/0100-baseRenditions.json]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+        java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [alfresco/renditions/0100-baseRenditions.json]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+                at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1380)
+                at org.apache.catalina.loader.WebappClassLoaderBase.getResourceAsStream(WebappClassLoaderBase.java:1109)
+                at org.alfresco.util.ConfigFileFinder.getResourceAsStream(ConfigFileFinder.java:181)
+                at org.alfresco.util.ConfigFileFinder.readFromJar(ConfigFileFinder.java:139)
+                at org.alfresco.util.ConfigFileFinder.readFiles(ConfigFileFinder.java:87)
+                at org.alfresco.repo.rendition2.RenditionDefinitionRegistry2Impl.readConfig(RenditionDefinitionRegistry2Impl.java:290)
+                at org.alfresco.repo.rendition2.RenditionDefinitionRegistry2Impl$1.readConfig(RenditionDefinitionRegistry2Impl.java:164)
+                at org.alfresco.util.ConfigScheduler.readConfigAndReplace(ConfigScheduler.java:208)
+                at org.alfresco.util.ConfigScheduler$ConfigSchedulerJob.execute(ConfigScheduler.java:64)
+                at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+                at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2019-11-29 05:31:00,067  ERROR [repo.rendition2.RenditionDefinitionRegistry2Impl] [QuartzScheduler_Worker-1] Config read failed. Illegal access: this web application instance has been stopped already. Could not load [alfresco/renditions/0100-baseRenditions.json]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [alfresco/renditions/0100-baseRenditions.json]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+        at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1380)
+        at org.apache.catalina.loader.WebappClassLoaderBase.getResourceAsStream(WebappClassLoaderBase.java:1109)
+        at org.alfresco.util.ConfigFileFinder.getResourceAsStream(ConfigFileFinder.java:181)
+        at org.alfresco.util.ConfigFileFinder.readFromJar(ConfigFileFinder.java:139)
+        at org.alfresco.util.ConfigFileFinder.readFiles(ConfigFileFinder.java:87)
+        at org.alfresco.repo.rendition2.RenditionDefinitionRegistry2Impl.readConfig(RenditionDefinitionRegistry2Impl.java:290)
+        at org.alfresco.repo.rendition2.RenditionDefinitionRegistry2Impl$1.readConfig(RenditionDefinitionRegistry2Impl.java:164)
+        at org.alfresco.util.ConfigScheduler.readConfigAndReplace(ConfigScheduler.java:208)
+        at org.alfresco.util.ConfigScheduler$ConfigSchedulerJob.execute(ConfigScheduler.java:64)
+        at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+        at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
